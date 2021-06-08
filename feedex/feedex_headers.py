@@ -39,7 +39,7 @@ FEEDEX_RELEASE="2020"
 FEEDEX_DESC="Personal News and Notes organizer"
 FEEDEX_AUTHOR ="""Karol Pałac"""
 FEEDEX_CONTACT="""palac.karol@gmail.com"""
-FEEDEX_WEBSITE="""www.sample.com""" 
+FEEDEX_WEBSITE="""https://github.com/kpalac/feedex""" 
 
 FEEDEX_HELP_ABOUT=f"""
 <b>Feedex v. {FEEDEX_VERSION}</b>
