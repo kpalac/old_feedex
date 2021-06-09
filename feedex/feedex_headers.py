@@ -35,7 +35,7 @@ import pyphen
 
 # Constants
 FEEDEX_VERSION = "1.0.0"
-FEEDEX_RELEASE="2020"
+FEEDEX_RELEASE="2021"
 FEEDEX_DESC="Personal News and Notes organizer"
 FEEDEX_AUTHOR ="""Karol Pałac"""
 FEEDEX_CONTACT="""palac.karol@gmail.com"""
