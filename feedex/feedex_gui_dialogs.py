@@ -1589,10 +1589,10 @@ that were manually added by user.
         self.browser_entry.set_text(coalesce(self.config.get('browser',''),''))
         self.external_iv_entry.set_text(coalesce(self.config.get('image_viewer',''),''))
 
-        self.similarity_limit_entry.set_text(scast(self.config.get('default_similarity_limit',''),str,'<<ERROR>>'))
-        self.error_threshold_entry.set_text(scast(self.config.get('error_threshold',''), str,'<<ERROR>>'))
+        self.similarity_limit_entry.set_text(scast(self.config.get('default_similarity_limit',50000),str,'<<ERROR>>'))
+        self.error_threshold_entry.set_text(scast(self.config.get('error_threshold',10), str,'<<ERROR>>'))
 
-        self.clear_cache_entry.set_text(scast(self.config.get('gui_clear_cache',''),str,'<<ERROR>>'))
+        self.clear_cache_entry.set_text(scast(self.config.get('gui_clear_cache',30),str,'<<ERROR>>'))
 
         if self.config.get('ignore_modified',True): self.ignore_modified_button.set_active(True)
         else: self.ignore_modified_button.set_active(False)
