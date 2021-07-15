@@ -564,7 +564,7 @@ def main():
 
 
     # Check if required user paths are present and if not - create them	
-    check_paths((FEEDEX_SHARED_PATH, FEEDEX_ICON_PATH))
+    check_paths((FEEDEX_SHARED_PATH, FEEDEX_ICON_PATH, FEEDEX_CACHE_PATH, ))
     # Parse configuration file
     config = parse_config(config_file)
 
