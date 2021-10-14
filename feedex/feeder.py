@@ -648,7 +648,7 @@ class Feeder:
         handler = args.get('handler','rss')
 
         # Check if feed is already present (by URL)
-        results = self.sqlite_cur.execute("""select * from feeds where url = ? and coalesce(deleted,0) <> 1 and hanlder <> 'local'""", (url,) ).fetchone()
+        results = self.sqlite_cur.execute("""select * from feeds where url = ? and coalesce(deleted,0) <> 1 and handler <> 'local'""", (url,) ).fetchone()
         if results != None:
             res_id = results[self.feed.get_index("id")]
             res_name = results[self.feed.get_index("name")]
