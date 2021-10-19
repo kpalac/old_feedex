@@ -1704,7 +1704,7 @@ Readability: <b>{round(self.sel_result['readability'],3)}</b>\n"""
         """ Add from URL - threading """
         FX = Feeder(config=self.config, debug=self.debug, ignore_images=self.config.get('ignore_images',False), gui=True, timeout=1, no_qp=True)
         err = False
-        for msg in FX.g_add_feed_from_url(url, handler=handler, category=category):
+        for msg in FX.g_add_feed_from_url(url, handler=handler, parent_id=category):
             if slist(msg, 0, 0) < 0 or scast(msg, int, 0) < 0: err = True
             self.message_q.append((1, msg,))
         self.message_q.append((3, None,))
