@@ -4,8 +4,6 @@ Main engine for Feedex news reader. Database interface and REST handling, main F
 
 """
 
-
-from snowballstemmer import norwegian_stemmer
 from feedex_headers import *
 
 
