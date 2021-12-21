@@ -2,7 +2,6 @@
 """ GUI classes for FEEDEX """
 
 
-from threading import main_thread
 from feedex_gui_utils import *
 
 
