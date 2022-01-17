@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0.0
+Name=Feedex News Organizer
+GenericName=News Organizer
+Exec=feedex
+Comment=Download, Classify and Organize your News and Notes
+Terminal=false
+Type=Application
+Categories=RSS;News;Notes
+Icon=/usr/share/feedex/data/pixmaps/feedex.png
+GenericName[en_US]=News Organizer
