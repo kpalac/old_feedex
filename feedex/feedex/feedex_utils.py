@@ -401,8 +401,9 @@ def strip_markup(raw_text:str, **kargs):
 
         # Strips markup from text - a simple one for speed and convenience
         # Handle tags...
-        raw_text = raw_text.replace("\n",'')
-        raw_text = raw_text.replace("\r",'')
+        raw_text = raw_text.replace("\r\n",' ')
+        raw_text = raw_text.replace("\n",' ')
+        raw_text = raw_text.replace("\r",' ')
         raw_text = raw_text.replace("</p>","\n\n")
         raw_text = raw_text.replace("<br>","\n")
         raw_text = raw_text.replace("<br />","\n")
