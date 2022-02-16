@@ -2,7 +2,7 @@
 """ Classes for basic NLP text processing for Feedex """
 
 
-from attr import has
+
 from feedex_headers import *
 
 
