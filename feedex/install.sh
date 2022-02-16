@@ -43,6 +43,7 @@ if [[ "$1" != "no_deps" ]]; then
 
     sudo apt-get install python3
     sudo apt-get install pip3
+    sudo apt-get install python3-pip
     sudo apt-get install -y python3-feedparser
 
     sudo pip install feedparser
