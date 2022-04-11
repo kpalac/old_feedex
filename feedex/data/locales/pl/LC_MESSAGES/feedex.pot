@@ -1,0 +1,4771 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-11 20:59+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: feeder.py:22 feedex_ling_processor.py:32
+msgid "Top_parent should be an instance of FeedexMainDataContainer class!"
+msgstr ""
+
+#: feeder.py:34 feeder.py:35
+msgid "No database given!"
+msgstr ""
+
+#: feeder.py:149
+msgid "SQLite Database not found. Creating new one at %a"
+msgstr ""
+
+#: feeder.py:154
+msgid "Folder %a created..."
+msgstr ""
+
+#: feeder.py:156
+msgid "Error creating DB foler %a"
+msgstr ""
+
+#: feeder.py:163
+msgid "DB connection error: %a"
+msgstr ""
+
+#: feeder.py:193
+msgid "Error writing DDL scripts to database! %a"
+msgstr ""
+
+#: feeder.py:197
+msgid "Database structure created"
+msgstr ""
+
+#: feeder.py:206
+msgid "Error writing defaults to database: %a"
+msgstr ""
+
+#: feeder.py:215
+msgid "Error getting version from DB: %a"
+msgstr ""
+
+#: feeder.py:221
+msgid "Application version too old for %a Database! Aborting"
+msgstr ""
+
+#: feeder.py:228
+msgid "Cannot update DB from this instance"
+msgstr ""
+
+#: feeder.py:231
+msgid "Database %a version too old... Updating..."
+msgstr ""
+
+#: feeder.py:250
+msgid "DB reconnection error: %a"
+msgstr ""
+
+#: feeder.py:261
+msgid "Running update script... %a"
+msgstr ""
+
+#: feeder.py:279
+msgid "Database %a restored ..."
+msgstr ""
+
+#: feeder.py:281
+msgid "Version update error"
+msgstr ""
+
+#: feeder.py:284
+msgid "Database updated successfully"
+msgstr ""
+
+#: feeder.py:285
+msgid "Deleting backup ..."
+msgstr ""
+
+#: feeder.py:291
+msgid "Backup database removed successfully"
+msgstr ""
+
+#: feeder.py:304
+msgid "Connection %a reset failed!"
+msgstr ""
+
+#: feeder.py:327
+msgid "Database locked"
+msgstr ""
+
+#: feeder.py:340
+msgid "Database unlocked"
+msgstr ""
+
+#: feeder.py:407
+msgid "Database busy"
+msgstr ""
+
+#: feeder.py:414
+msgid "Datbase busy"
+msgstr ""
+
+#: feeder.py:445 feeder.py:446
+msgid "Local lock timeout reached"
+msgstr ""
+
+#: feeder.py:785
+msgid "Error parsing JSON: %a"
+msgstr ""
+
+#: feeder.py:790
+msgid "Invalid input: must be a list of dicts!"
+msgstr ""
+
+#: feeder.py:803
+msgid "Input entry no. %a is not a dictionary!"
+msgstr ""
+
+#: feeder.py:825
+msgid "Added %a new entries"
+msgstr ""
+
+#: feeder.py:868
+msgid "Database locked for fetching!"
+msgstr ""
+
+#: feeder.py:871
+msgid "Database already locked for fetching!"
+msgstr ""
+
+#: feeder.py:881 feeder.py:882
+msgid "Error while unlocking for fetching: %a"
+msgstr ""
+
+#: feeder.py:885
+msgid "Database unlocked for fetching!"
+msgstr ""
+
+#: feeder.py:901
+msgid "Someone else is currently fetching to the database?"
+msgstr ""
+
+#: feeder.py:942
+msgid "Feed %a ignored due to previous errors"
+msgstr ""
+
+#: feeder.py:953
+msgid "Processing %a ..."
+msgstr ""
+
+#: feeder.py:976
+msgid "Channel handled locally... Ignoring..."
+msgstr ""
+
+#: feeder.py:980
+msgid "Handler %a not recognized!"
+msgstr ""
+
+#: feeder.py:985
+msgid "Using custom User Agent: %a"
+msgstr ""
+
+#: feeder.py:1017
+msgid "Error while linguistic processing %a!"
+msgstr ""
+
+#: feeder.py:1026 feeder.py:1042 feeder.py:1058 feeder.py:1069 feeder.py:1082
+#: feeder.py:1087 feeder.py:1155 feeder.py:1168 feeder.py:1192 feeder.py:1197
+#: feeder.py:1201 feeder.py:1250 feeder.py:1295 feeder.py:1305 feeder.py:1495
+#: feeder.py:1512 feeder.py:1529 feedex_entry.py:91 feedex_entry.py:107
+#: feedex_entry.py:248 feedex_entry.py:348 feedex_entry.py:416
+#: feedex_feed.py:458 feedex_feed.py:573 feedex_feed.py:626
+#: feedex_gui_tabs.py:776 feedex_rule.py:190 feedex_rule.py:275
+#: feedex_rule.py:340 feedex_rule.py:450 feedex_rule.py:534
+msgid "DB error: %a"
+msgstr ""
+
+#: feeder.py:1036
+msgid "Unknown error: %a"
+msgstr ""
+
+#: feeder.py:1048 feeder.py:1097
+msgid "Handler error: %a"
+msgstr ""
+
+#: feeder.py:1094
+msgid "Updating metadata for %a"
+msgstr ""
+
+#: feeder.py:1103
+msgid "Error updating metadata for feed %a"
+msgstr ""
+
+#: feeder.py:1109 feedex_feed.py:384 feedex_rule.py:77 feedex_rule.py:414
+msgid "Invalid data type for %a"
+msgstr ""
+
+#: feeder.py:1112 feeder.py:1127 feeder.py:1466 feeder.py:1481 feeder.py:1613
+#: feeder.py:1672 feeder.py:1678 feedex_gui_main.py:1856
+#: feedex_gui_main.py:1870 feedex_gui_main.py:1985 feedex_gui_tabs.py:1226
+#: feedex_rule.py:239 feedex_rule.py:502
+msgid "DB Error: %a"
+msgstr ""
+
+#: feeder.py:1115
+msgid "Metadata updated for feed %a"
+msgstr ""
+
+#: feeder.py:1135
+msgid "Finished fetching (%a new articles)"
+msgstr ""
+
+#: feeder.py:1136
+msgid "Finished updating metadata"
+msgstr ""
+
+#: feeder.py:1158
+msgid "Deleted %a items from search history"
+msgstr ""
+
+#: feeder.py:1172
+msgid "Deleted %a learned rules"
+msgstr ""
+
+#: feeder.py:1205
+msgid "Trash emptied: %a"
+msgstr ""
+
+#: feeder.py:1228
+msgid "Mass recalculation started..."
+msgstr ""
+
+#: feeder.py:1269
+msgid "Processing entry %a ..."
+msgstr ""
+
+#: feeder.py:1292
+msgid "Committing batch ..."
+msgstr ""
+
+#: feeder.py:1299
+msgid "Learning rule batch ..."
+msgstr ""
+
+#: feeder.py:1313
+msgid "Batch committed"
+msgstr ""
+
+#: feeder.py:1317
+msgid "Recalculation finished!"
+msgstr ""
+
+#: feeder.py:1342
+msgid "DATABASE LOCKED!"
+msgstr ""
+
+#: feeder.py:1350
+msgid ""
+"\n"
+"DATABASE LOCKED FOR FETCHING!\n"
+"\n"
+msgstr ""
+
+#: feeder.py:1355 feeder.py:1359
+msgid "NOT FOUND"
+msgstr ""
+
+#: feeder.py:1416
+msgid "DB locked!"
+msgstr ""
+
+#: feeder.py:1420
+msgid "Starting DB miantenance"
+msgstr ""
+
+#: feeder.py:1422
+msgid "Performing VACUUM"
+msgstr ""
+
+#: feeder.py:1424
+msgid "Performing ANALYZE"
+msgstr ""
+
+#: feeder.py:1426
+msgid "REINDEXING all tables"
+msgstr ""
+
+#: feeder.py:1429
+msgid "Updating document statistics"
+msgstr ""
+
+#: feeder.py:1439
+msgid "DB maintenance completed"
+msgstr ""
+
+#: feeder.py:1442
+msgid "DB maintenance failed! (%a)"
+msgstr ""
+
+#: feeder.py:1454
+msgid "File already exists!"
+msgstr ""
+
+#: feeder.py:1468
+msgid "Data successfully exported"
+msgstr ""
+
+#: feeder.py:1469
+msgid "Error writing JSON data to %a"
+msgstr ""
+
+#: feeder.py:1473
+msgid "Error reading data from %a"
+msgstr ""
+
+#: feeder.py:1474
+msgid "Invalid data format (not a list)"
+msgstr ""
+
+#: feeder.py:1499
+msgid "Feed data successfully imported from %a"
+msgstr ""
+
+#: feeder.py:1516
+msgid "Rules successfully imported from %a"
+msgstr ""
+
+#: feeder.py:1533
+msgid "Flags successfully imported from %a"
+msgstr ""
+
+#: feeder.py:1551
+msgid "File already exists! Aborting..."
+msgstr ""
+
+#: feeder.py:1555
+msgid "Making safety backup to %a"
+msgstr ""
+
+#: feeder.py:1569
+msgid "Target DB error: %a"
+msgstr ""
+
+#: feeder.py:1571
+msgid "Database %a created ..."
+msgstr ""
+
+#: feeder.py:1576
+msgid "Error converting time: %a"
+msgstr ""
+
+#: feeder.py:1580
+msgid "Counting entries to be archived ..."
+msgstr ""
+
+#: feeder.py:1598
+msgid "Nothing to be archived ... Aborting ..."
+msgstr ""
+
+#: feeder.py:1603
+msgid "Calculating archive weights for rules' contexts..."
+msgstr ""
+
+#: feeder.py:1619
+msgid "Transferring rules to archived DB ..."
+msgstr ""
+
+#: feeder.py:1624
+msgid "No rules to archive ..."
+msgstr ""
+
+#: feeder.py:1628
+msgid "DB Error while transferring rules: %a"
+msgstr ""
+
+#: feeder.py:1632
+msgid "Transferring entries..."
+msgstr ""
+
+#: feeder.py:1639
+msgid "DB Error while transferring entries: %a"
+msgstr ""
+
+#: feeder.py:1642
+msgid "Transferring feed data ..."
+msgstr ""
+
+#: feeder.py:1646
+msgid "DB Error while transferring feeds: %a"
+msgstr ""
+
+#: feeder.py:1649
+msgid "Transferring flags ..."
+msgstr ""
+
+#: feeder.py:1654
+msgid "DB Error while transferring flags: %a"
+msgstr ""
+
+#: feeder.py:1657
+msgid "Transferring manual rules ..."
+msgstr ""
+
+#: feeder.py:1661
+msgid "DB Error while transferring manual rules: %a"
+msgstr ""
+
+#: feeder.py:1666
+msgid "Removing rules from current DB..."
+msgstr ""
+
+#: feeder.py:1675
+msgid "Removing old entries from current DB..."
+msgstr ""
+
+#: feeder.py:1681
+msgid "Deleting temporary backup ..."
+msgstr ""
+
+#: feeder.py:1687
+msgid "Temporary backup database removed successfully"
+msgstr ""
+
+#: feeder.py:1690
+msgid "DB successfully archived to %a"
+msgstr ""
+
+#: feeder_query_parser.py:231 feeder_query_parser.py:242
+msgid "%a is not a valid field! Changed to ID"
+msgstr ""
+
+#: feeder_query_parser.py:268
+msgid "Invalid query type!"
+msgstr ""
+
+#: feeder_query_parser.py:280
+msgid "Invalid search field value!"
+msgstr ""
+
+#: feeder_query_parser.py:286
+msgid "Category not found!"
+msgstr ""
+
+#: feeder_query_parser.py:292
+msgid "Channel ID not found!"
+msgstr ""
+
+#: feeder_query_parser.py:298
+msgid "Category or Channel not found!"
+msgstr ""
+
+#: feeder_query_parser.py:330
+msgid "Could not parse date (date_from)!"
+msgstr ""
+
+#: feeder_query_parser.py:336
+msgid "Could not parse date (date_to)!"
+msgstr ""
+
+#: feeder_query_parser.py:343
+msgid "Could not parse date (date_add_from)!"
+msgstr ""
+
+#: feeder_query_parser.py:349
+msgid "Could not parse date (date_add_to)!"
+msgstr ""
+
+#: feeder_query_parser.py:358
+msgid "Invalid value for last Nth update!"
+msgstr ""
+
+#: feeder_query_parser.py:380
+msgid "Wildcards are not allowed with this type of query!"
+msgstr ""
+
+#: feeder_query_parser.py:513 feeder_query_parser.py:624
+msgid "Nothing to search. Aborting..."
+msgstr ""
+
+#: feeder_query_parser.py:608
+msgid "similar documents"
+msgstr ""
+
+#: feeder_query_parser.py:643 feeder_query_parser.py:960
+#: feeder_query_parser.py:1043
+msgid "Invalid grouping! Must be: %a"
+msgstr ""
+
+#: feeder_query_parser.py:799 feeder_query_parser.py:1437
+msgid "entries"
+msgstr ""
+
+#: feeder_query_parser.py:799
+msgid "contexts"
+msgstr ""
+
+#: feeder_query_parser.py:1164
+msgid "rergistered channels"
+msgstr ""
+
+#: feeder_query_parser.py:1167
+msgid "categories"
+msgstr ""
+
+#: feeder_query_parser.py:1260
+msgid "YES"
+msgstr ""
+
+#: feeder_query_parser.py:1261
+msgid "NO"
+msgstr ""
+
+#: feeder_query_parser.py:1262 feedex_gui_utils.py:373
+msgid "All"
+msgstr ""
+
+#: feeder_query_parser.py:1263 feedex_gui_utils.py:536
+msgid "-- All Fields --"
+msgstr ""
+
+#: feeder_query_parser.py:1264
+msgid "-- All Channels/Categories --"
+msgstr ""
+
+#: feeder_query_parser.py:1265 feeder_query_parser.py:1549 feedex_utils.py:165
+msgid "<NONE>"
+msgstr ""
+
+#: feeder_query_parser.py:1266 feedex_feed.py:358 feedex_rule.py:30
+#: feedex_rule.py:93 feedex_rule.py:102 feedex_rule.py:111 feedex_rule.py:120
+#: feedex_rule.py:372
+msgid "<UNKNOWN>"
+msgstr ""
+
+#: feeder_query_parser.py:1267
+msgid "String Matching"
+msgstr ""
+
+#: feeder_query_parser.py:1268
+msgid "Full Text Search"
+msgstr ""
+
+#: feeder_query_parser.py:1269
+msgid "Full Text Search (Exact)"
+msgstr ""
+
+#: feeder_query_parser.py:1270 feedex_gui_dialogs_entts.py:1272
+#: feedex_gui_utils.py:501
+msgid "REGEX"
+msgstr ""
+
+#: feeder_query_parser.py:1271
+msgid "Learnind algorithm (stemmmed)"
+msgstr ""
+
+#: feeder_query_parser.py:1272
+msgid "Learnind algorithm (exact)"
+msgstr ""
+
+#: feeder_query_parser.py:1318
+msgid "rules"
+msgstr ""
+
+#: feeder_query_parser.py:1434
+msgid "results"
+msgstr ""
+
+#: feeder_query_parser.py:1530
+msgid "<<NUM?>>"
+msgstr ""
+
+#: feeder_query_parser.py:1557 feedex_gui_feeds.py:260 feedex_gui_main.py:439
+#: feedex_gui_tabs.py:724 feedex_gui_utils.py:329 feedex_gui_utils.py:938
+msgid "Today"
+msgstr ""
+
+#: feeder_query_parser.py:1558 feedex_gui_utils.py:939
+msgid "Yesterday"
+msgstr ""
+
+#: feeder_query_parser.py:1614
+msgid "Entry does not exist!"
+msgstr ""
+
+#: feeder_query_parser.py:1651
+msgid "Learned Keywords:\n"
+msgstr ""
+
+#: feeder_query_parser.py:1678
+msgid "Channel does not exist!"
+msgstr ""
+
+#: feedex_docs.py:11
+msgid ""
+"\n"
+"Usage: <b>feedex [parameters|filters] [actions]</b>\n"
+"\n"
+"    <b>Actions</b>:\n"
+"        -h, --help                              Show this help\n"
+"        -hh, --help-long                        Show full manual (use with ' "
+"| less -R' because it is long :))\n"
+"        -v, --version                           Version info\n"
+"        --about                                 About Feedex...\n"
+"\n"
+"        -g, --get-news [ID]                     Get news without checking "
+"intervals (force download)\n"
+"                                                Providing ID will limit "
+"download to specified channel ID\n"
+"\n"
+"        -a, --add-feed [URL]                    Add news channel by "
+"providing a URL pointing to RSS\n"
+"        -D, --delete-feed [ID] [option]         Delete news channel "
+"specified by ID (first - move to Trash, second - delete permanently with all "
+"entries)\n"
+"\n"
+"        -u, --update-feeds [ID]                 Update news channel data "
+"like title, subtitle, tags etc.. Limit by ID\n"
+"    \t-L, --list-feeds                        List all registerred channels\n"
+"        -c, --check [ID]                        Check for news (applying "
+"intervals and no force download with etag/modified). \n"
+"                                                Limit by channel ID\n"
+"\n"
+"        -r, --read-entry [ID]                   Read entry/news article "
+"contents by ID\n"
+"        -o, --open-in-browser [ID|URL]          Open link of an entry by ID "
+"or URL. Register openning and learn keywords/rules for later ranking\n"
+"        -F, --read-feed [ID]                    Get all entries from a "
+"Channel specified by ID\n"
+"        -C, --read-category [ID|NAME]           Get all entries for a "
+"specified Category\n"
+"        -q, --query [Phrase]                    Query entries with search "
+"phrase (see -hh option for details)\n"
+"\n"
+"        --csv                                   Output in CSV format (no "
+"beautifiers)\n"
+"        --short                                 Show short output for "
+"queries\n"
+"\n"
+"    <b>!!! See feedex -hh for full manual !!!</b>\n"
+"        --help-feeds                            Manual on Feeds and "
+"Ctegories \n"
+"        --help-entries                          Manual on Entries (articles, "
+"notes, hilights etc.)\n"
+"        --help-rules                            Manual on rules, ranking and "
+"flags\n"
+"\n"
+msgstr ""
+
+#: feedex_docs.py:50
+msgid ""
+"\n"
+"Usage: <b>feedex [parameters|filters] [actions] [arguments]</b>\n"
+"\n"
+"    Feedex lets you organize your news and notes. It classifies incoming "
+"news according to your previous choices and manually created rules. \n"
+"    But Feedex can also handle other types of data - you can save "
+"categorized notes and analyze them for interesting features\n"
+"    to apply to rank and highlight news, to help you get important "
+"information quickly and efficiently. \n"
+"    It is meant to be used as a scheduled job (with desktop notifications) "
+"or hotkey script for quickly saving highlighted text or keyword,\n"
+"    adding a news channel with URL or simply as a tool to read, query and "
+"analyse news/notes.\n"
+"\n"
+"    Technical notes:\n"
+"    Feedex uses <b>SQLite</b> database to store data. DB by default can be "
+"found in <b>~/.local/share/feedex/</b>\n"
+"    Language Models, used to rank and extract keywords, can be found in <b>/"
+"use/share/feedex/models</b> in pickle format. \n"
+"    You can add new language model with examples in <b>/usr/share/feedex/"
+"data/model_generators</b> directory.\n"
+"    Icons and thumbnails are saved separately in <b>~/.local/share/feedex/"
+"icons</b> and <b>~/.local/share/feedex/cache</b> respectively.\n"
+"\n"
+"    <b>General:</b>\n"
+"        -h, --help                              Show short help\n"
+"        -hh, --help-long                        Show this help\n"
+"        -v, --version                           Version info\n"
+"        --about                                 About Feedex...\n"
+"\n"
+"    <b>Display parameters:</b>\n"
+"        --csv                                   Output in CSV format (no "
+"interlines and colours/beautifiers)\n"
+"        --json                                  Output as standard JSON "
+"string\n"
+"        --short                                 Output shortened version\n"
+"        --headlines                             Output only date, title and "
+"channel\n"
+"\n"
+"        --trunc=INT                             Truncate output of fields to "
+"INT chars (0 for no truncation)\n"
+"        --delimiter=STR                         Change field separator (cli/"
+"csv), delault |\n"
+"        --delimiter2=STR                        Change item separator inside "
+"field, e.g. for snippets and contexts (cli/csv), delault ;\n"
+"        --escape=STR                            Escape sequence for "
+"delimiters (useful for CSV)\n"
+"  \n"
+"        --silent                                Do not print output\n"
+"\n"
+"        --desktop-notify                        Show desktop notifications "
+"instead CLI output (-g, -c, and --query)\n"
+"                                                Useful for scheduled tasks\n"
+"\n"
+"    <b>Fetching:</b>\n"
+"        -g, --get-news [ID]                     Get news without checking "
+"intervals, ETags or Modified tags (force download). Limit by feed ID\n"
+"        -c, --check [ID]                        Check for news (applying "
+"intervals and no force download with etag/modified). Limit by feed ID\n"
+"        -o, --open-in-browser [ID|URL]          Open entry by ID or URL in "
+"browser. Register openning for later ranking and\n"
+"                                                learn rules.\n"
+"\n"
+"    <b>Feeds:</b>\n"
+"        Every news channel is saved as feed. Feeds can be downloaded, "
+"edited, deleted, added by providing URL etc. Downloaded news \n"
+"        are saved as entries. See <b>--help-feeds</b> option for more "
+"detailed information.\n"
+"\n"
+"    \t-L, --list-feeds                        List all registerred feeds\n"
+"        -a, --add-feed [URL]                    Add feed providing a URL "
+"pointing to RSS. \n"
+"                                                Possible parameters: --"
+"handler=[rss|html|script|local], --category=[ID/Name]\n"
+"                                                --no_fetch - do not fetch "
+"anything to allow further editting (the same as with 'local/html/script' "
+"handlers)\n"
+"        -u, --update-feeds [ID]                 Update feed data like title, "
+"subtitle, tags etc.. Limit by ID\n"
+"                                                Providing ID will limit "
+"download to specified feed ID\n"
+"        -D, --delete-feed [ID]                  Delete feed specified by ID. "
+"Deleted feed is moved to Trash. \n"
+"                                                Deleting Feed in Trash will "
+"remove it permanently with all associated Entries\n"
+"        -F, --read-feed [ID]                    Get all entries from a feed "
+"specified by ID (filters like in --query)\n"
+"        -C, --read-category [ID|NAME]           Get all entries from a "
+"category specified by ID or NAME (filters like in --query)\n"
+"        --examine-feed [ID]                     Check feed configuration\n"
+"        --edit-feed [ID] [FIELD] [VALUE]        Change feed's (by ID) "
+"PARAMETER \n"
+"                                                (for param. names check --"
+"examine-feed) to VALUE\n"
+"                                                NULL or NONE means NULL "
+"value\n"
+"\n"
+"        --insert-feed-before [ID] [TARGET ID]   Change display order of "
+"Channel/Category so it is displayed before TARGET IDd Channel/Category\n"
+"                                                If IDd is a Channe and "
+"TARGET is a Category, then Channel will be assigned to the Category\n"
+"                                                This command changes "
+"display_order field in feeds table\n"
+"\n"
+"        --test-regexes [ID]                     Download URL and perform "
+"sample parsing with saved REGEXes for a specified Feed.\n"
+"                                                DB will not be updated. For "
+"testing.\n"
+"\n"
+"    <b>Categories:</b>\n"
+"        Every Feed or Entry can be assigned to a Category\n"
+"\n"
+"        --list-categories                       List all available "
+"categories\n"
+"        --show-categories-tree                  List Category/Channel tree\n"
+"        --add-category [Title] [Subtitle]       Add new category with given "
+"title and subtitle\n"
+"        --delete-category [ID]                  Remove category with given "
+"ID. If category is already in Trash, it will be removed permanently\n"
+"        --edit-category [ID] [FIELD] [VALUE]    Edit ID'd category - change "
+"field's value to [VALUE].\n"
+"                                                NULL or NONE means NULL "
+"value\n"
+"\n"
+"\n"
+"    <b>Entries:</b>\n"
+"        Every news article, note, highlight etc. is saved as an Entry. "
+"Entries are available for queries and linguistic analysis.\n"
+"        You can add entries of any category/feed as well as delete any "
+"entry. Entries are linguistically analysed and ranked by importance\n"
+"        according to learned and manual rules and keywords.\n"
+"        Every entry has a unique ID. See <b>--help-entries</b> for more "
+"detailed information\n"
+"\n"
+"        -r, --read-entry [ID]                   Read entry contents by ID "
+"(does not cause learning)\n"
+"        -S, --find-similar [ID]                 Find similar entries to ID'd "
+"(filters like in --query)\n"
+"                                                --limit=INT        Limit "
+"results to INT-best (inproves performance)\n"
+"        --rel-in-time [ID]                      Entry's relevance as a time "
+"series - like --term-in -time for entry's keywords (filters like in --"
+"query)\n"
+"                                                --limit=INT        Limit "
+"results to INT-best (inproves performance)\n"
+"        --mark [ID] [N]                         Mark entry as read N times "
+"(increases weight in later ranking) and learn features\n"
+"                                                options:\n"
+"                                                --learn,--no-learn         "
+"Extract patterns from Entry?\n"
+"        --mark-unimportant [ID]                 Mark entry as unimportant "
+"and learn negative features\n"
+"                                                options:\n"
+"                                                --learn,--no-learn         "
+"Extract patterns from Entry?\n"
+"        --flag [ID] [N]                         Flag entry to be highlighted "
+"in queries (0 - no flag)\n"
+"                                                Flags are also added if "
+"entry contains a keyword specified by --add-keyword\n"
+"                                                This helps to highlight "
+"items important to user\n"
+"        -N, --add-entry [TITLE] [TEXT]          Add an entry providing title "
+"and text. Useful for saving highlights or notes.\n"
+"                                                NULL or NONE means NULL "
+"value\n"
+"                                                Parameters:\n"
+"                                                --category=[INT|NAME]   "
+"Specifiy Entry's Category\n"
+"                                                --feed=[INT]            "
+"Specify Entry's Feed\n"
+"                                                --learn, --no-learn     Do "
+"you want to learn features from this entry for ranking news?\n"
+"                                                                        Default "
+"is: learn\n"
+"                                                                        Learning "
+"is useful to find topics that will interest you most based on your notes\n"
+"\n"
+"\n"
+"\t    --delete-entry [ID]                     Delete entry/news article/note "
+"by its ID. If the Entry is already in Trash it will\n"
+"                                                be removed permanently with "
+"all keywords/rules\n"
+"        --edit-entry [ID] [FIELD] [VALUE]       Edit ID'd Entry. Change "
+"[FIELD] to specified [VALUE]. \n"
+"                                                NULL or NONE means NULL "
+"value\n"
+"                                                See --help-entries for field "
+"names\n"
+"\n"
+"        --add-entries-from-file [FILE]          \n"
+"        --add-entries-from-pipe                 You can add Entries "
+"wholesale from a JSON file or pipe input compatibile with JSON format.\n"
+"                                                For input format see <b>--"
+"help-entries</b> option\n"
+"                                                --learn     Do you want to "
+"learn features from added entries if 'read' param is > 0?\n"
+"                                                    \n"
+"                                    \n"
+"\n"
+"    <b>Queries:</b>\n"
+"        --list-history                          Show search history\n"
+"        \n"
+"        -q, --query [Phrase]                    Query entries with a search "
+"phrase:\n"
+"                                                operators:\n"
+"                                                wildcard - *, escape - \\, "
+"beginning - ^, ending - $ \n"
+"                                                ~INT - 'near' operator where "
+"INT is max distance in words\n"
+"\n"
+"                                                parameters:\n"
+"                                                --lang=         language "
+"used in query for tokenizing and stemming\n"
+"                                                --case_ins      query is "
+"case insensitive\n"
+"                                                --case_sens     query is "
+"case sensitive\n"
+"                                                --exact         macth exac "
+"lexical forms (no stemming)\n"
+"                                                --field=        field to "
+"search. 0 or None for all.\n"
+"                                                                Available "
+"fields:\n"
+"                                                                (lang, "
+"author, publisher, contributors, link\n"
+"                                                                title, desc, "
+"tags, category, comments, text)\n"
+"                                                --type=         type of "
+"qery\n"
+"                                                                'full' - "
+"full text (default), available operators: ^,$,*,~INT,\\ \n"
+"                                                                'string' - "
+"simple string matching, av. optrs.: ^,$,\\\n"
+"                                                                'exact' - "
+"full text but with no stemming\n"
+"                                                --sort=/--rsort=   sort/"
+"reverse sort by field (see --read-entry for field names)\n"
+"                                                --rev            display in "
+"reverse order\n"
+"                                                --group=         Display as "
+"a tree grouped by this parameter (category, feed or flag)\n"
+"                                                --depth=         Integer "
+"telling the depth of each node for grouping. If 0, every result is shown\n"
+"                                                                 If no "
+"grouping was selected, simply first N results will be shown\n"
+"\n"
+"\n"
+"                                                filters: \n"
+"                                                --from=,to=     filter by "
+"published dates\n"
+"                                                --added_from=, \n"
+"                                                --added_to=     filter by "
+"dates when entry was added to database\n"
+"                                                --last          limit to "
+"only recently added (on last update)\n"
+"                                                --last_n=       limit to "
+"only last N updates\n"
+"                                                --feed=         limit to "
+"feed specified by ID\n"
+"                                                --category=     limit to "
+"category and feeds in category specified by ID\n"
+"                                                --today         limit to "
+"last 24h\n"
+"                                                --last_hour     limit to "
+"last 1h\n"
+"                                                --last_week, --last_month, --"
+"last_quarter, --last_six_months, --last_year   limit to 7, 31, 93 or 365 "
+"days ago\n"
+"                                                --importance=INT limit by "
+"importance threshold\n"
+"                                                --read/--unread   limit to "
+"read/unread only (see --mark)\n"
+"                                                --flag=          linit by "
+"flag. Possible values:\n"
+"                                                                    all - "
+"flagged and unflagged entries\n"
+"                                                                    no  - "
+"only unflagged entries\n"
+"                                                                    all_flags "
+"- include all flags\n"
+"                                                                    [INT] - "
+"choose a flag to filter by (by ID) \n"
+"                                                --handler=       limit to "
+"feed handler (rss, html, script, local)\n"
+"                                                --deleted       indlude "
+"deleted feeds, categories and entries\n"
+"\n"
+"    <b>Handlers:</b>\n"
+"        Every Feed has a protocol handler specified:\n"
+"        <b>rss</b>      RSS protocol (needs a valid URL)\n"
+"        <b>html</b>     Fetch a HTML page and parse it with REGEXes from "
+"rx_... fields\n"
+"        <b>script</b>   Run a script to fetch for this channel specified in "
+"<b>script_file</b> field\n"
+"        <b>local</b>    No internet protocol. Feeds are not fetched from the "
+"Internet, but can be populated by scripts (see --add-entries-from-file/"
+"pipe)\n"
+"\n"
+"    <b>Rules (Keywords and Terms):</b>\n"
+"        Rules are learned when article is opened in browser (-o option) or "
+"added manually (--add-entry with --learn). \n"
+"        They can also be added manually as keywords, phrases, REGEXes etc.\n"
+"        Learned rules are used to rank incoming news by importance (you can "
+"sort by importance in queries with --sort=importance)\n"
+"        and get most important news on top. \n"
+"        Manual rules are used for flagging/highlighting articles so they are "
+"more visible. \n"
+"        Feedex learns rules by extracting important phrases from opened "
+"entries using language models.\n"
+"        See <b>--help-rules</b> for more info\n"
+"\n"
+"        --list-rules                            Show all non-learned rules "
+"(Keywords, REGEX and strings)       \n"
+"        -K, --add-keyword [TEXT]                Add keyword(s) to rules "
+"applied on every news check (simple string matching)\n"
+"                                                If a keyword is matched in "
+"an incoming news or note, it will be highlighted\n"
+"                                                in notifications and queries "
+"(see --flag)\n"
+"                                                parameters:\n"
+"                                                --case_ins, --case_sens     "
+"for c. ins. matching\n"
+"                                                --feed=[ID]                 "
+"feed ID to be matched exclusively\n"
+"                                                --field=[NAME]              "
+"field name to be exclusively matched (\n"
+"                                                                                Available "
+"fields:\n"
+"                                                                                (lang, "
+"author, publisher, contributors, link\n"
+"                                                                                title, "
+"desc, tags, category, comments, text)\n"
+"                                                --weight                    "
+"weight ascribed to this rule\n"
+"                                                --lang                      "
+"language to be matched and used for stemming and tokenizing\n"
+"                                                --flag                      "
+"choose a flag to use if matched. Possible values: 1-5 or no\n"
+"                                                \n"
+"        --add-regex [TEXT]                      Add REGEX to rules applied "
+"on every news check\n"
+"                                                (parameters: as in previous "
+"option)\n"
+"        --add-full-text [TEXT]                  Add full text query to rules "
+"applied on every news check\n"
+"                                                (parameters: as in previous "
+"option)\n"
+"\n"
+"        --edit-rule [ID] [FIELD] [VALUE]        Edit ID'd Rule. Change "
+"[FIELD] to specified [VALUE]. \n"
+"                                                \\NULL or \\NONE means NULL "
+"value\n"
+"                                                See --help-rules for field "
+"names\n"
+"\n"
+"        --delete-rule [ID]                      Delete rule by its ID (see: "
+"--show-rules)\n"
+"\n"
+"        --term-context [TEXT]                   Show contexts for given "
+"terms (parameters as in query, contexts taken from results)\n"
+"    \n"
+"        --term-net [TERM]                       Show terms connected to a "
+"given term by context (parameters:lang)\n"
+"        --term-in-time [TERM]                   Show time distribution of a "
+"term (filters like in --query) \n"
+"                                                parameters:\n"
+"                                                --lang=          language "
+"used for query\n"
+"                                                --group=         grouping "
+"(hourly, daily, monthly)\n"
+"                                                --plot           plot data "
+"points in CLI\n"
+"                                                --term-width=    width of "
+"terminal window (for aestetics)\n"
+"        --terms-for-entry [ID]                  Show/generate terms/rules "
+"for a specified entry/article\n"
+"        --rules-for-entry [ID]                  Show rules that matched and "
+"added to importance of ID'd entry\n"
+"\n"
+"\n"
+"    <b>Flags:</b>\n"
+"        --list-flags                            Display all Flags\n"
+"        --add-flag [NAME] [DESC]                Add new flag with given NAME "
+"and optional DESCription\n"
+"        --edit-flag [ID] [FIELD] [VALUE]        Edit flag by ID\n"
+"        --delete-flag [ID]                      Delete flag by ID\n"
+"\n"
+"\n"
+"    <b>Misc:</b>\n"
+"        --clear-history                         Clear search history\n"
+"        --delete-query-rules                    Deletes all rules learned "
+"from query search phrases\n"
+"        --delete-learned-rules                  Deletes all learned keywords/"
+"rules (<i>use cautiously</i>)\n"
+"        --empty-trash                           Permanently removes all "
+"Entries, Feeds and Categories marked as deleted\n"
+"\n"
+"\n"
+"    <b>Data and Dev:</b>\n"
+"        \n"
+"        --export-rules [FILENAME]               Export added rules to json "
+"file\n"
+"        --import-rules [FILENAME]               Import added rules from json "
+"file to current DB\n"
+"\n"
+"        --export-feeds [FILENAME]               Export saved news channels "
+"to json file\n"
+"        --import-feeds [FILENAME]               Import saved news channels "
+"from json file to current DB\n"
+"\n"
+"        --export-flags [FILENAME]               Export saved flags to json "
+"file\n"
+"        --import-flags [FILENAME]               Import saved flags from json "
+"file to current DB\n"
+"\n"
+"        --recalculate [ID]                      Recalculate linguistic stats "
+"and tokens for all/IDd entry\n"
+"        --rerank [ID]                           Recalculate importance and "
+"flag stats for all/IDd entry\n"
+"        --relearn [ID]                          (Re)learn features from all "
+"read entries/IDd entry\n"
+"\n"
+"        --db-maintenance                        Perform maintenance on the "
+"database (VACUUM, ANALYZE and REINDEX)\n"
+"                                                to reduce DB size\n"
+"\n"
+"        --archive [TIMESTAMP] [TARGET_DB]       Archive entries older than "
+"[TIMESTAMP] to [TARGET_DB] file and remove them\n"
+"                                                from current DB.\n"
+"                                                Params:\n"
+"                                                    --with-rules    If "
+"specified, rules learned from archived entries will also be\n"
+"                                                                    removed "
+"and will not contribute to ranking. If not specified, \n"
+"                                                                    rules "
+"will still be present with immutable weights.\n"
+"                                                    --no-read       Do not "
+"archive read entries (keep them in current DB)\n"
+"                                                    --no-flagged    Do not "
+"archive flagged entries (keep them in current DB)\n"
+"\n"
+"    <b>Database:</b>\n"
+"        --lock-db, --unlock-db                  Force-lock/unlock database "
+"(use with caution)\n"
+"        --lock-fetching,\n"
+"        --unlock-fetching                       Force-lock/unlock database "
+"for fetching. Useful for scripts and error recovery\n"
+"        --ignore-lock                           Ignore DB locking mechanism\n"
+"        --db-stats                              Database statistics\n"
+"        --timeout=INT                           (param) Timeout to try "
+"connect on case database is locked\n"
+"\n"
+"\n"
+"    <b>Configuration parameters:</b>\n"
+"\n"
+"        --config=                               Specify different "
+"configuration file. Useful for implementing different profiles.\n"
+"        --log=                                  Specify different log file\n"
+"        --database=                             Specify different SQLite "
+"database\n"
+"        --debug                                 Set verbose debug mode to 1 "
+"- more inforation on what is done\n"
+"        --debug=INT                             Set debug mode (see below)\n"
+"\n"
+"    <b>Possible ENVIRONMENT variables to set:</b>\n"
+"\n"
+"        FEEDEX_DB_PATH                          Path to SQLite database\n"
+"        FEEDEX_LOG                              Path to log file\n"
+"        FEEDEX_CONFIG                           Path to config file\n"
+"\n"
+"\n"
+"    <b>Return codes:</b>\n"
+"        0       No error occurred\n"
+"        1       Generic error\n"
+"        2       Database error (SQL or Operational)\n"
+"        3       Handler error (e.g. invalid HTTP status)\n"
+"        4       Lock error (DB is locked for requested action)\n"
+"        5       Invalid query options (e.g. requested search field is "
+"invalid)\n"
+"        6       Input/Output data error (e.g. invalid pipe data or json "
+"data, invalid input file etc.)\n"
+"        7       Validation error (e.g. invalid data type while editing "
+"entry)\n"
+"        8       Referenced data not found (e.g. entry with a given ID does "
+"not exists)\n"
+"        9       Invalid command line arguments\n"
+"        \n"
+"\n"
+"    <b>Debug levels:</b>\n"
+"        1       All messages\n"
+"        2       Database messages\n"
+"        3       Handler messages\n"
+"        4       Linguistic processing messages\n"
+"        5       Query messages\n"
+"        6       I/O messages\n"
+"        7       GUI messages\n"
+"        8       Show all fields/columns in CLI queries\n"
+"\n"
+"\n"
+"    <b>EXAMPLES:</b>\n"
+"        \n"
+"        feedex --rsort=adddate --category=Hilights -q\n"
+"            Show all documents in \"Hilights\" category and reverse-sort "
+"them by date added\n"
+"        \n"
+"        feedex --sort=pubdate -F=1 -q\n"
+"            Show all news for feed 1 and sort them by publication date\n"
+"\n"
+"        feedex --sort=pubdate -f=2 --unread -q\n"
+"            Show all unread news for feed 2 and sort them by publication "
+"date\n"
+"\n"
+"        feedex --type=string -q \"example\"\n"
+"            Search for phrase \"example\" by simple string matching, case "
+"sensitive\n"
+"\n"
+"        feedex --field=title --case_ins -q \"example\"\n"
+"            Search for \"example\" in titles, case insensitive\n"
+"\n"
+"        feedex --headlines --group=category --depth=10 --last_month -q "
+"'example'\n"
+"            Show entries containing 'example' grouped by category with "
+"headlines only\n"
+"\n"
+"        feedex --headlines --group=category --depth=10 --last -q\n"
+"            Show nicely grouped headlines from last fetch\n"
+"\n"
+"        feedex --desktop-notify --group=category --depth=10 --last -c\n"
+"            Fetch news and show grouped headlines from fetch as desktop "
+"notifications. Good for scheduled task\n"
+"\n"
+"        feedex --desktop-notify --group=flag --depth=0 --last -c\n"
+"            Fetch news and show flagged entries only from last fetch as "
+"desktop notifications\n"
+"\n"
+msgstr ""
+
+#: feedex_docs.py:400
+msgid ""
+"\n"
+"\n"
+"<b>Feedex: Feeds</b>\n"
+"\n"
+"Feeds (news Channels) are downloaded and parsed using handlers (rss, html) "
+"or populated by scripts (script, local - ignored during fetching).\n"
+"Unless used with -g option, Feedex will respect etags and 'modified' tags if "
+"provided by publisher. \n"
+"It will also check for news duplicates before saving. \n"
+"HTTP return codes are analysed after download. If channel gave too many HTTP "
+"errors in consecutive tries, it will be\n"
+"ignored. To try again one needs to change error parameter using <b>--edit-"
+"feed [ID] error 0 </b>\n"
+"\n"
+"A feed/channel can be updated periodically (autoupdate field) to check for "
+"changes. If channel is moved permanently, \n"
+"new URL will be checked and saved. If channel moved temporarily, it will "
+"download from new location but keep old URL\n"
+"\n"
+"If needed, authentication method ('auth' field) along with login ('login') "
+"and password ('password') can be specified\n"
+"and Feedex will try to use those to download a feed. IMPORTANT: passwords "
+"are stored in PLAINTEXT!\n"
+"\n"
+"News channels are stored in DB in <b>feeds</b> table. Value of each of those "
+"fields can be changed via <b>--edit-feed</b> \n"
+"Below are field descriptions:\n"
+"\n"
+"    <b>id</b>                                  unique identifier (integer)\n"
+"    <b>charset</b>                             character encoding stated in "
+"header.\n"
+"    <b>lang</b>                                language stated in header\n"
+"    <b>generator</b>                           RSS/Atom generator software "
+"used to generate the feed\n"
+"    <b>url</b>                                 resource location used during "
+"download\n"
+"\n"
+"    <b>login, domain, passwd</b>               data used if authentication "
+"is required (auth field is not NONE)\n"
+"    <b>auth</b>                                authentication method: (If "
+"changed to not NONE, user will be prompted for auth. data)\n"
+"                                               <b>NONE</b> - no auth., "
+"<b>detect</b> - detect required method,\n"
+"                                               <b>digest</b>, <b>basic</b> - "
+"use these methods\n"
+"    <b>author, author_contact,\n"
+"    publisher, publisher_contact,\n"
+"    contributors, copyright</b>                author, publisher, "
+"contributors and copyright from feed header\n"
+"\n"
+"    <b>link</b>                                link to Homepage\n"
+"    \n"
+"    <b>title, subtitle, category, tags</b>     self-explanatory RSS fields\n"
+"    \n"
+"    <b>name</b>                                feed name displayed in "
+"Feedex's output.\n"
+"    <b>lastread</b>                            Epoch-encoded date of last "
+"download\n"
+"    <b>lastchecked</b>                         Epoch-encoded date of last "
+"check on this feed\n"
+"    \n"
+"    <b>interval</b>                            how often shoul this feed be "
+"checked for news (-c option)? in minutes\n"
+"    <b>error</b>                               how many times download or "
+"parsing failed. Used to skip broken feeds after\n"
+"                                               certain amount "
+"(error_threshold configuration option)\n"
+"    <b>autoupdate</b>                          should Feedex automatically "
+"update feed data when -c or -g option is used?\n"
+"    \n"
+"    <b>http_status</b>                         last HTTP response. 200 means "
+"everything went well\n"
+"    \n"
+"    <b>etag, modified</b>                      etag and modified tags "
+"provided last time by the publisher\n"
+"    \n"
+"    <b>version</b>                             protocol version used\n"
+"\n"
+"    <b>is_category</b>                         is this feed a category? This "
+"is because categories are stored in the same table. \n"
+"                                                <i>It is not recommended to "
+"change this manually</b>\n"
+"    <b>parent_id</b>                           ID of category this feed "
+"belongs to \n"
+"                                               to change use: "
+"<b>parent_category</b> or <b>parent_id</b> (using 'category' will change "
+"other field)\n"
+"    \n"
+"    <b>handler</b>                             protocol handler:\n"
+"                                               <b>rss</b>, \n"
+"                                               <b>html</b>  fetching a www "
+"page and parsing it by REGEX rules (see below)\n"
+"                                               <b>script</b>  fetching with "
+"a script specified by path in <b>script_file</b> field \n"
+"                                               <b>local</b> (no fetching, "
+"populated manually or by scripts)\n"
+"    <b>deleted</b>                             Is feed in trash?\n"
+"\n"
+"    <b>user_agent</b>                          Custom User Agent tag to use "
+"with this feed only. If empty - default will be used.\n"
+"                                               <i>To be used only for debug "
+"purposes!</i>\n"
+"\n"
+"    <b>fetch</b>                               Should Channel be fetched "
+"automatically (-c or -g option with no specified ID)\n"
+"\n"
+"    <b>rx_entries</b>                          REGEX for extracting main "
+"entries table (e.g. <article>.*</article>)\n"
+"\n"
+"    <b>rx_title, rx_link, rx_desc,</b> \n"
+"    <b>rx_author, rx_category,</b>\n"
+"    <b>rx_text, rx_images, rx_pubdate          REGEX lines for parsing entry "
+"strings list extracted by <b>rx_entries</b>.\n"
+"                                               Non-empty <b>Title</b> and "
+"<b>Link</b> is required\n"
+"                                               Only the first match for each "
+"is processed\n"
+"\n"
+"        Fields <b>rx_images</b> and <b>rx_link</b> can be also used to "
+"extract image hrefs or resource links respectively from description and text "
+"fields\n"
+"        after fetching with rss handler (in case those entities have non-"
+"standardd markup for a particular feed)\n"
+"\n"
+"\n"
+"    <b>rx_pubdate_feed, rx_image_feed</b>\n"
+"    <b>rx_title_feed, rx_charset_feed</b>      \n"
+"    <b>rx_lang_feed</b>                        REGEXes for extracting head/"
+"meta information for whole channel.\n"
+"                                               Only the first match for each "
+"is processed\n"
+"\n"
+"    <b>script_file</b>                         Script used for fetching for "
+"this Channel\n"
+"                                               Script should return a JSON "
+"string with entries (see <b>--help-scripting</b> for specification)\n"
+"\n"
+"\n"
+"    <b>icon_name</b>                           Stock icon name for display "
+"for this Channel (it overwrites downloaded image)\n"
+"\n"
+"    <b>display_order</b>                       Order in which a Channel/"
+"Category should be displayed in CLI and GUI\n"
+"\n"
+"\n"
+"\n"
+"Every field can be changed with --edit-feed [ID] [FIELD] [VALUE] command, "
+"where [FIELD] is a name from above\n"
+"\n"
+"\n"
+msgstr ""
+
+#: feedex_docs.py:502
+msgid ""
+"\n"
+"\n"
+"<b>Feedex: Entries</b>\n"
+"\n"
+"Entries are downloaded news articles (see -c and -g options) and notes added "
+"by users (see --add-entry).\n"
+"Text fields are stripped of html using re. Images and links are extracted "
+"and saved.  \n"
+"Entries are stored in DB in 'entries' table. Below, are field descriptions:\n"
+"\n"
+"    <b>id</b>           unique identifier (integer)\n"
+"    <b>feed_id</b>      ID of Feed or Category this Entry belongs to (feed "
+"and category IDs do not overlap)\n"
+"                        to change use: <b>parent_category</b>, <b>feed</b>, "
+"<b>parent_id</b> or <b>feed_id</b>\n"
+"    \n"
+"    <b>charset</b>      character encoding used in this entry ('utf-8' by "
+"default)\n"
+"    <b>lang</b>         language used in this entry. If not provided in RSS/"
+"Atom, it will be heuristically detected\n"
+"    \n"
+"    <b>title, author, author_contact, contributors, publisher, "
+"publisher_contact, category, tags</b> - data from RSS headers\n"
+"    <b>desc</b>                Description section (manually added entries "
+"fill up title and desc fields)\n"
+"    \n"
+"    <b>link</b>                Link to article\n"
+"    <b>pubdate</b>             Epoch-encoded publication date\n"
+"    <b>pubdate_str</b>         Publication date - human readable\n"
+"    \n"
+"    <b>guid</b>                Global identifier for entry provided by "
+"publisher (these, and links, are checked at parsing\n"
+"                                to avoid duplicates)\n"
+"    \n"
+"    <b>comments, source, links</b>    Data extracted from respective feed "
+"sections\n"
+"\n"
+"    <b>text</b>                This field contains all text found in "
+"'contents' section of an RSS/Atom. HTML is stripped,\n"
+"                                links to images are extracted and saved at "
+"'images' field\n"
+"    \n"
+"    <b>addate</b>              Epoch-encoded date when entry was added to "
+"DB\n"
+"    <b>addate_str</b>          Added date - human readable\n"
+"\n"
+"    <b>read</b>                 How many times was an entry opened (-o "
+"section) or marked. User-added, not downloaded entries\n"
+"                                are assigned status equal to "
+"default_entry_weight configuration parameter (2 if not given). \n"
+"                                Feedex extract learning features from "
+"entries with read > 0 to use them for ranking of\n"
+"                                incoming news (see --mark option). Status "
+"also influences the weight of features learned\n"
+"                                from an entry.\n"
+"    <b>importance</b>          This is a rank assigned by matching learned "
+"rules. New entries are sorted by this field\n"
+"    \n"
+"    <b>tokens</b>              Field with a string containing prefixed, "
+"stemmed tokens for full text seach\n"
+"    \n"
+"    <b>sent_count</b>          Sentence count\n"
+"    <b>word_count</b>          Word count (non-punctation tokens)\n"
+"    <b>char_count</b>          Character count\n"
+"    <b>polysyl_count</b>       Count of polysyllables (words with >3 "
+"syllables)\n"
+"    <b>com_word_count</b>      Commond word count. Common words are checked "
+"against lists predefined in language model\n"
+"    <b>numerals_count</b>      Count of numerals\n"
+"    <b>caps_count</b>          Count of capitalized words (for bicameral "
+"languages)\n"
+"    \n"
+"    <b>readability</b>         Purely heurstic readability measure added as "
+"a token prefixed with MX. Found in ling_processor module\n"
+"    <b>weight</b>              A number to compensate for document length "
+"and information content, so that very long articles are not \n"
+"                               ranked at the top by virtue of length alone. "
+"Calculations found in ling_processor module\n"
+"\n"
+"    <b>flag</b>                Increased whenever flagging rule is matched. "
+"It causes entry to be highlighted on output.\n"
+"                               Useful for catching important keywords or "
+"phrases regardless of learned ranking (see --flag option)\n"
+"\n"
+"    <b>images</b>              Links to images extracted from HTML\n"
+"    <b>enclosures</b>          Links to other data/media\n"
+"\n"
+"    <b>tokens_raw</b>          Prefixed unstemmed tokens (for exact search)\n"
+"    <b>deleted</b>             Was Entry moved to Trash?\n"
+"\n"
+"Each of those fields can be sorted by using --sort,--rsort query parameter.\n"
+"Fields: "
+"'author','publisher','contributors','link','title','desc','tags','category','text' "
+"can be searched\n"
+"in query. If no field is given, every each one of these will be searched\n"
+"\n"
+"For <b>--add-entry-from-file</b> and <b>--add-entry-from-pipe</b> or "
+"<b>script</b> handler, input can be given to mass-insert entries.\n"
+"Input needs to be in JSON format or list of dicts, as in:\n"
+"\n"
+"[  \n"
+"{'feed_id' : <int>, (must be provided and > 0)\n"
+"... other fields from above ... \n"
+"\n"
+"},\n"
+"... other entries ...\n"
+"]\n"
+"\n"
+"Fields other than:\n"
+"'feed_id','read','flag','charset','lang','title', 'desc', 'text', 'author', "
+"'publisher', 'contributors',\n"
+"'author_contact', 'publisher_contact', 'link', 'pubdate_str', 'guid', "
+"'category'\n"
+"'tags','comments','source','links','images','enclosures', 'deleted'\n"
+"\n"
+"... will be overwritten or ommitted on processing linguistic data, text "
+"statistics and database compatibility\n"
+"\n"
+msgstr ""
+
+#: feedex_docs.py:592
+msgid ""
+"\n"
+"\n"
+"<b>Feedex: Rules</b>\n"
+"\n"
+"Each downloaded entry in checked against saved rules. For each entry "
+"importance is calculated and it is used to rank news against \n"
+"your intersts and preferences. Rules can be learned or added manually. Both "
+"contribute to importance, but if manually added rule\n"
+"is matched an entry if flagged for highlighting at output (see --flag "
+"option) (this can be overriden by rule data). \n"
+"Each rule is ascribed to its entry (context), and entry's read status or "
+"amount of times opened (see --mark option) multiplies importance \n"
+"given from this particular rule. \n"
+"Each entry has 'weight' field, that is also multiplied when matching to "
+"offset advantage given to long news articles.\n"
+"\n"
+"Each rule's weight is also multiplied by weight of a field it was extracted "
+"from, e.g. you will want title to bear more weight\n"
+"than text. Field weight is implemented during feature learning\n"
+"\n"
+"Learned rules are simply features extracted by ling_processor according to "
+"tagging and rules whenever entry is opened in browser\n"
+"or marked. Example language model is described in comments in "
+"<b>sample_model_generator.py</b> in 'utils' folder along with mechanism\n"
+"used for analysis, extraction, tagging and tokenizing.\n"
+"\n"
+"Rules are stored in DB in rules table. Below are field descriptions:\n"
+"\n"
+"    <b>id</b>                   unique identifier for a rule (integer)\n"
+"    <b>name</b>                 name of rule used for display (<i>not "
+"matching!</i> Display only)\n"
+"    <b>type</b>                 matching type of a rule:\n"
+"                                values:\n"
+"                                    string - simple string matching\n"
+"                                    full - full text search (stemmed)\n"
+"                                    exact - full text search (exact)\n"
+"                                    regex - REGEX search\n"
+"                                    4 - full text, stemmed (learned rules "
+"only)\n"
+"                                    5 - full text, exact (learned rules "
+"only)\n"
+"\n"
+"    <b>feed_id</b>              ID of a feed or category whose entries are "
+"exclusively matched against this rule\n"
+"                                to change use: <b>category</b>, <b>feed</b> "
+"or <b>feed_id</b>\n"
+"    <b>field_id</b>             ID of a field to be matched by a rule, also: "
+"<b>field</b>\n"
+"                                values: "
+"'lang','author','publisher','contributors','link','title','desc','tags','category','text' \n"
+"\n"
+"    <b>string</b>               string to be matched according to rule type\n"
+"    <b>case_insensitive</b>     is match case insensitive? 1 or 0\n"
+"    <b>lang</b>                 what language (of an entry) rule applies to\n"
+"    <b>weight</b>               increase in importance from this rule (later "
+"multiplied by context status and entry weight)\n"
+"    <b>additive</b>             if rule importance additive or one-time\n"
+"    <b>learned</b>              is rule learned?\n"
+"                                values 1-learned, 0-manually added\n"
+"    <b>flag</b>                 Is rule flagging matched entry? Default is "
+"YES\n"
+"    <b>context_id</b>           ID of an entry that this rule comes from\n"
+"    <b>archive</b>              Technical field for maintenance use -> "
+"weight of an archived entry this rule is from\n"
+"    <b>path</b>                 Technical field for path inside the entry. "
+"May be used for term relatedness, etc.\n"
+"\n"
+"Manual and search phrase rules can be deleted and edited by ID\n"
+"(see --list-rules)\n"
+"Fresh databases have no rules. As said before, they are learned by opening "
+"articles and adding notes.\n"
+"Rules can be relearned using --relearn option.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"<b>Feedex: Flags</b>\n"
+"\n"
+"Flags are manual markers for Entries that can be searched for. Entry can be "
+"flagged if matched by a Rule (id specified - see above).\n"
+"If more than one differently-flagged Rules are matched, frequency "
+"distribution is constructed with Rules' weights and maximum is selected.\n"
+"Flags were added to allow more detailed classification of Entries and News.\n"
+"They are stored in flags SQL table. Field description:\n"
+"\n"
+"    <id>                        Unique identifier (integer)\n"
+"    <name>                      Flag's name for display\n"
+"    <desc>                      Flag's description\n"
+"    <color>                     Color used to mark flagged entry in GUI. "
+"<i>Must be in #FFFFFF format</i> \n"
+"    <color_cli>                 Color used to mark flagged entry in CLI\n"
+"                                Possible values:\n"
+"                                    WHITE, WHITE_BOLD, YELLOW, YELLOW_BOLD, "
+"CYAN, CYAN_BOLD, BLUE, \n"
+"                                    BLUE_BOLD, RED, RED_BOLD, GREEN, "
+"GREEN_BOLD, PURPLE, PURPLE_BOLD, \n"
+"                                    LIGHT_RED, LIGHT_RED_BOLD\n"
+"\n"
+msgstr ""
+
+#: feedex_docs.py:670
+msgid ""
+"\n"
+"<b>Feedex: Scripting</b>\n"
+"\n"
+"If Feed's handler is specified as <b>script</b> a user-specified command "
+"from <b>script_file</b> field (<b>feeds</b> table) is ran on fetching.\n"
+"Its output, assumed to be a <b>JSON string</b> (see below), is then parsed "
+"and loaded for processing just like RSS. Errors should be handled within\n"
+"the script, as STDERR is not analysed. User should take special care for the "
+"script not to cause unacceptable lattency or infinite loop, as fetching\n"
+"process waits for output and blocks while waiting.\n"
+"\n"
+"Several parameters can be passed in the command and be replaced by "
+"variables:\n"
+"\n"
+"    <b>%A</b>   User Agent (feed-specific or global)\n"
+"    <b>%E</b>   Last saved ETag\n"
+"    <b>%M</b>   Last saved 'Modified' tag\n"
+"    <b>%L</b>   Feed's login\n"
+"    <b>%P</b>   Feed's password\n"
+"    <b>%D</b>   Feed's auth domain\n"
+"    <b>%U</b>   Feed's URL\n"
+"    <b>%F</b>   Feed's ID\n"
+"    <b>%%</b>   % character\n"
+"\n"
+"<b>Output JSON string should have specific format:</b>\n"
+"\n"
+"{\n"
+"<i>#HTTP return headers...</i>\n"
+"'status': <i>#HTTP return status, must be 200, 201, 202, 203, 204, 205 or "
+"206 for Feedex to save results to DB</i>\n"
+"'etag': ...\n"
+"'modified': ...\n"
+"\n"
+"<i>#Feed data...</i>\n"
+"<b>feed</b>:  {\n"
+"                    'title': ...\n"
+"                    'pubdate': <i>#Updated date string</b>\n"
+"                    'image': <i>#link to feed's icon/emblem</i>\n"
+"                    'charset': ...\n"
+"                    'lang': <i>#Language code, e.g. 'en'</i>\n"
+"\n"
+"                    <i>#List of entries/articles to process</i>\n"
+"                    entries : [ \n"
+"                                {\n"
+"                                    <i>#Mandatory fields:</i>\n"
+"                                    'title': ...\n"
+"                                    'link': ...\n"
+"\n"
+"                                    <i>#... and other optional fields - see "
+"--help-entries for details</i>\n"
+"\n"
+"                                },\n"
+"                                ...\n"
+"                                ]\n"
+"\n"
+"                }\n"
+"\n"
+"}\n"
+"\n"
+msgstr ""
+
+#: feedex_entry.py:54 feedex_entry.py:65 feedex_entry.py:339
+msgid "Entry %a not found!"
+msgstr ""
+
+#: feedex_entry.py:83
+msgid "Nothing to open. Aborting..."
+msgstr ""
+
+#: feedex_entry.py:101
+msgid "Opening in browser (%a) ..."
+msgstr ""
+
+#: feedex_entry.py:105
+msgid "Learning keywords"
+msgstr ""
+
+#: feedex_entry.py:109
+msgid "Keywords learned"
+msgstr ""
+
+#: feedex_entry.py:113
+msgid "Error reloading rules after successfull open: %a"
+msgstr ""
+
+#: feedex_entry.py:127 feedex_rule.py:74
+msgid "Flag not found!"
+msgstr ""
+
+#: feedex_entry.py:130 feedex_rule.py:302
+msgid "Invalid type for field %a"
+msgstr ""
+
+#: feedex_entry.py:134 feedex_entry.py:140 feedex_entry.py:146
+msgid "Channel or Category %a not found!"
+msgstr ""
+
+#: feedex_entry.py:152 feedex_feed.py:329 feedex_feed.py:413 feedex_feed.py:421
+#: feedex_rule.py:102
+msgid "Category %a not found!"
+msgstr ""
+
+#: feedex_entry.py:159
+msgid "Every entry needs to be assigned to a Channel or a Category!"
+msgstr ""
+
+#: feedex_entry.py:160 feedex_feed.py:318 feedex_rule.py:93
+msgid "Channel %a not found!"
+msgstr ""
+
+#: feedex_entry.py:166
+msgid "Not a valid url! (%a)"
+msgstr ""
+
+#: feedex_entry.py:168 feedex_feed.py:427
+msgid "Deleted flag must be 0 or 1!"
+msgstr ""
+
+#: feedex_entry.py:171
+msgid "Invalid published date string (pubdate_str)!"
+msgstr ""
+
+#: feedex_entry.py:176
+msgid "Invalid adding date string (%a)!"
+msgstr ""
+
+#: feedex_entry.py:191 feedex_feed.py:237 feedex_feed.py:438 feedex_feed.py:740
+#: feedex_rule.py:173 feedex_rule.py:429
+msgid "Nothing to do"
+msgstr ""
+
+#: feedex_entry.py:194 feedex_entry.py:312 feedex_entry.py:332
+#: feedex_feed.py:439 feedex_feed.py:538 feedex_feed.py:552 feedex_rule.py:174
+#: feedex_rule.py:222 feedex_rule.py:236 feedex_rule.py:430 feedex_rule.py:485
+#: feedex_rule.py:499
+msgid "Nothing to do. Aborting..."
+msgstr ""
+
+#: feedex_entry.py:227
+msgid "Recalculating statistics ..."
+msgstr ""
+
+#: feedex_entry.py:228 feedex_entry.py:423
+msgid "Extracting and learning keywords ..."
+msgstr ""
+
+#: feedex_entry.py:233
+msgid "Error processing linguistic data: %a"
+msgstr ""
+
+#: feedex_entry.py:260 feedex_feed.py:473 feedex_rule.py:197
+msgid "Error reloading rules after successfull update: %a"
+msgstr ""
+
+#: feedex_entry.py:265 feedex_feed.py:471
+msgid "Error updating DB stats after successfull update: %a"
+msgstr ""
+
+#: feedex_entry.py:270
+msgid "Entry %a updated successfuly!"
+msgstr ""
+
+#: feedex_entry.py:275 feedex_entry.py:278
+msgid "Entry %a marked as read"
+msgstr ""
+
+#: feedex_entry.py:281
+msgid "Entry %a marked as unread"
+msgstr ""
+
+#: feedex_entry.py:284
+msgid "Entry %a unflagged"
+msgstr ""
+
+#: feedex_entry.py:287
+msgid "Entry %a flagged"
+msgstr ""
+
+#: feedex_entry.py:290
+msgid "Entry %a restored"
+msgstr ""
+
+#: feedex_entry.py:356 feedex_rule.py:244
+msgid "Error reloading rules after successfull delete: %a"
+msgstr ""
+
+#: feedex_entry.py:358 feedex_feed.py:584
+msgid "Error updating DB stats after successfull delete: %a"
+msgstr ""
+
+#: feedex_entry.py:364
+msgid "Entry %a deleted permanently with rules"
+msgstr ""
+
+#: feedex_entry.py:368
+msgid "Entry %a deleted"
+msgstr ""
+
+#: feedex_entry.py:370 feedex_feed.py:527 feedex_feed.py:529 feedex_feed.py:600
+#: feedex_rule.py:210 feedex_rule.py:213 feedex_rule.py:474 feedex_rule.py:477
+msgid "Nothing done"
+msgstr ""
+
+#: feedex_entry.py:426
+msgid "Error saving keywords: %a"
+msgstr ""
+
+#: feedex_entry.py:429
+msgid "Keywords learned for entry %a"
+msgstr ""
+
+#: feedex_entry.py:434 feedex_rule.py:282
+msgid "Error reloading rules after successfull add: %a"
+msgstr ""
+
+#: feedex_entry.py:437
+msgid "Error updating DB stats after successfull add: %a"
+msgstr ""
+
+#: feedex_entry.py:439
+msgid "Entry %a added"
+msgstr ""
+
+#: feedex_entry.py:465 feedex_entry.py:470 feedex_entry.py:474
+#: feedex_entry.py:478
+msgid "Entry not found!"
+msgstr ""
+
+#: feedex_feed.py:54
+msgid "Field name of an SQL container must be a str!"
+msgstr ""
+
+#: feedex_feed.py:137
+msgid "Filter must be a list or a tuple!"
+msgstr ""
+
+#: feedex_feed.py:200
+msgid "Interface should be an instance of Feeder class!"
+msgstr ""
+
+#: feedex_feed.py:230
+msgid "Editting field %a is not permitted!"
+msgstr ""
+
+#: feedex_feed.py:249
+msgid "No changes detected"
+msgstr ""
+
+#: feedex_feed.py:343 feedex_rule.py:111 feedex_rule.py:120 feedex_rule.py:306
+msgid "Channel/Category %a not found!"
+msgstr ""
+
+#: feedex_feed.py:351
+msgid "Nothing to open!"
+msgstr ""
+
+#: feedex_feed.py:352
+msgid "Cannot open a category!"
+msgstr ""
+
+#: feedex_feed.py:356
+msgid "Empty URL!"
+msgstr ""
+
+#: feedex_feed.py:358
+msgid "Sent to browser (%a)"
+msgstr ""
+
+#: feedex_feed.py:387 feedex_feed.py:388
+msgid "Nested categories are not allowed!"
+msgstr ""
+
+#: feedex_feed.py:390 feedex_feed.py:391
+msgid "Not a valid URL! (%a)"
+msgstr ""
+
+#: feedex_feed.py:400
+msgid "Invalid handler! Must be rss, local or html"
+msgstr ""
+
+#: feedex_feed.py:401
+msgid "Interval must be >= 0!"
+msgstr ""
+
+#: feedex_feed.py:402
+msgid "Autoupdate flag must be 0 or 1!"
+msgstr ""
+
+#: feedex_feed.py:403
+msgid "Fetch flag must be 0 or 1!"
+msgstr ""
+
+#: feedex_feed.py:406
+msgid "Invalid authentication methon (must be NONE, detect, basic or digest)"
+msgstr ""
+
+#: feedex_feed.py:407
+msgid "Password must be provided!"
+msgstr ""
+
+#: feedex_feed.py:408
+msgid "Login must be provided!"
+msgstr ""
+
+#: feedex_feed.py:467
+msgid "Error reloading Feeds after successfull update: %a"
+msgstr ""
+
+#: feedex_feed.py:475 feedex_feed.py:587 feedex_feed.py:635
+#: feedex_gui_tabs.py:254 feedex_headers.py:397
+msgid "Category"
+msgstr ""
+
+#: feedex_feed.py:476 feedex_feed.py:588 feedex_feed.py:636
+msgid "Channel"
+msgstr ""
+
+#: feedex_feed.py:505
+msgid "Fetching disabled for %a"
+msgstr ""
+
+#: feedex_feed.py:508
+msgid "Fetching enabled for %a"
+msgstr ""
+
+#: feedex_feed.py:513
+msgid "Authentication method changed for %a"
+msgstr ""
+
+#: feedex_feed.py:516
+msgid "Password changed for %a"
+msgstr ""
+
+#: feedex_feed.py:519
+msgid "Login changed for %a"
+msgstr ""
+
+#: feedex_feed.py:522
+msgid "Domain (auth) changed for %a"
+msgstr ""
+
+#: feedex_feed.py:581
+msgid "Error reloading data after successfull delete: %a"
+msgstr ""
+
+#: feedex_feed.py:633
+msgid "Error reloading Feeds after successfull add: %a"
+msgstr ""
+
+#: feedex_feed.py:669
+msgid "Channel with this URL already exists (%a)"
+msgstr ""
+
+#: feedex_feed.py:683
+msgid "Error while reloading Feeds for fetching: %a"
+msgstr ""
+
+#: feedex_feed.py:697
+msgid "DB error while updating feed list order: %a"
+msgstr ""
+
+#: feedex_feed.py:705
+msgid "Target by id %a not found"
+msgstr ""
+
+#: feedex_feed.py:706
+msgid "Channel/Category %a not found"
+msgstr ""
+
+#: feedex_feed.py:719 feedex_feed.py:724
+msgid "Error insering Channel/Category: %a"
+msgstr ""
+
+#: feedex_feed.py:744
+msgid "Error reloading Feeds after successfull operation: %a"
+msgstr ""
+
+#: feedex_feed.py:746
+msgid "Display order changed successfully..."
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:17
+msgid "Add Channel from URL"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:25
+msgid ""
+"Choose Category to assign this Channel to\n"
+"Categories are useful for quick filtering and organizing Channels"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:31
+msgid "Add"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:32 feedex_gui_dialogs_entts.py:114
+#: feedex_gui_dialogs_entts.py:291 feedex_gui_dialogs_entts.py:478
+#: feedex_gui_dialogs_entts.py:629 feedex_gui_dialogs_entts.py:893
+#: feedex_gui_dialogs_entts.py:1278 feedex_gui_dialogs_utils.py:356
+#: feedex_gui_dialogs_utils.py:619 feedex_gui_dialogs_utils.py:1174
+msgid "Cancel"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:61 feedex_gui_dialogs_entts.py:63
+msgid "Enter Channel's <b>URL</b> here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:94
+msgid "Add New Category"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:102 feedex_gui_dialogs_entts.py:458
+#: feedex_gui_dialogs_entts.py:597 feedex_gui_dialogs_entts.py:1191
+msgid "Name:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:103 feedex_gui_dialogs_entts.py:1199
+msgid "Subtitle:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:105
+msgid "Enter Category name here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:107
+msgid "Enter subtitle/description name here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:109 feedex_gui_dialogs_entts.py:1268
+msgid "Icon:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:110
+msgid "Choose icon for this Category"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:111 feedex_gui_dialogs_entts.py:1270
+msgid "Search local machine for icons"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:113 feedex_gui_dialogs_entts.py:477
+#: feedex_gui_dialogs_entts.py:628 feedex_gui_dialogs_entts.py:1277
+#: feedex_gui_dialogs_utils.py:618
+msgid "Save"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:115 feedex_gui_dialogs_entts.py:217
+#: feedex_gui_dialogs_entts.py:479 feedex_gui_dialogs_entts.py:630
+#: feedex_gui_dialogs_entts.py:894 feedex_gui_dialogs_entts.py:1279
+#: feedex_gui_dialogs_utils.py:620 feedex_gui_main.py:433
+msgid "Restore"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:168 feedex_gui_dialogs_entts.py:1381
+msgid "Choose file"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:185 feedex_gui_dialogs_entts.py:1409
+msgid "Choose Image"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:213
+msgid "Add new Entry"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:214
+msgid "Clear"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:216 feedex_gui_main.py:429
+msgid "Edit Entry"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:232
+msgid ""
+"Choose <b>Category</b> or <b>Channel</b> to assign this Entry to.\n"
+"It is a good idea to have categories exclusively for manually added entries "
+"for quick access to notes, hilights etc.\n"
+"<i>Every Entry needs to be assigned to a Category or a Channel</i>"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:238
+msgid "Enter Entry's title here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:273
+msgid "Enter Entry's details/description here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:281
+msgid "Enter additional text here"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:285
+msgid "Learn rules?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:286
+msgid ""
+"Should Feedex extract Rules from this entry for ranking incomming entries by "
+"importance?\n"
+"See <b>Rules</b>->Right-Click-><b>Show learned rules</b> to see those and "
+"weights assigned to them\n"
+"Rules are also learned automatically when any Entry/Article is opened in "
+"Browser"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:290
+msgid "  Save  "
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:439
+msgid "Add new Flag"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:440 feedex_gui_main.py:537
+msgid "Edit Flag"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:460
+msgid "Display name for this Flag used in Queries etc."
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:464
+msgid "Color:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:468
+msgid "Color (CLI):"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:471
+msgid "ID:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:473
+msgid ""
+"Sometimes it is useful to set up ID manually e.g. to add description to flag "
+"deleted before"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:578
+msgid "Add new Rule"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:579 feedex_gui_main.py:491
+msgid "Edit Rule"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:599
+msgid "Display name for this rule (<i>not used in matching</i>)"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:600
+msgid "Search string:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:602
+msgid ""
+"String or Pattern used for search and matching\n"
+"It is used according to <b>Type</b> and should be compatibile with it (e.g. "
+"REGEX string)"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:605
+msgid "Type:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:607
+msgid "Channel or Category:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:608
+msgid "-- Every Feed --"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:608
+msgid "Which Feed/Channel should this Rule filter?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:609
+msgid "Field:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:611 feedex_gui_dialogs_utils.py:538
+msgid "Language:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:612
+msgid "Which language should this rule use for Full Text Search?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:613
+msgid "Case:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:614 feedex_gui_tabs.py:172
+msgid "Case sensitive"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:614 feedex_gui_tabs.py:172
+msgid "Case insensitive"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:614
+msgid "Should this Rule be case sensitive?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:616
+msgid "Weight:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:618
+msgid ""
+"Weight is used to increase article's <b>importance</b> when matched\n"
+"Articles are then sorted by importance to keep the most important ones on "
+"top.\n"
+"Weights from leaned rules as well as the ones from manually added ones sum "
+"up and position an Article"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:622
+msgid ""
+"Main reason for manually added rules is to flag interesting incomming "
+"articles independently of importance ranking\n"
+"Sometimes, however, a rule can simply increase importance by its <b>weight</"
+"b> without flagging"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:624
+msgid "Are matches weights additive?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:764
+msgid "Custom REGEX string for resource link extraction"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:768
+msgid "REGEX strings for HTML parsing"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:779
+msgid ""
+"This REGEX will extract links to images from Description and Contents "
+"instead of builtin"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:782
+msgid ""
+"This REGEX will extract additional links to resources from Description and "
+"Contents instead of builtin"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:799
+msgid ""
+"This REGEX should extract list of strings for Entries to be parsed by entry-"
+"specific REGEXes\n"
+"Parsing will be done match by match with each REGEX below"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:802 feedex_gui_dialogs_entts.py:1195
+msgid "Title:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:804
+msgid "Link:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:806
+msgid "Description:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:808 feedex_gui_dialogs_entts.py:1221
+msgid "Author:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:810 feedex_gui_dialogs_entts.py:1236
+msgid "Category:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:812
+msgid "Additional Text:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:814
+msgid "Images:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:816
+msgid "Published Date:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:819
+msgid "Feed's Title:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:821
+msgid "Feed's: Published Date:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:823
+msgid "Feed's Image:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:825
+msgid "Feed's Encoding:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:827
+msgid "Feed's Language:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:883 feedex_gui_feeds.py:317
+#: feedex_gui_utils.py:470
+msgid "HTML"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:884
+msgid "Parsing Preview"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:886
+msgid "Load from..."
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:886
+msgid "Load REGEXes from other Chanel"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:892 feedex_gui_dialogs_utils.py:355
+msgid "Accept"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:896
+msgid "Test REGEXes"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:896
+msgid "Download resource and test your search string"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:948
+msgid "Link URL is empty. Cannot download resource"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1179
+msgid "Add new Feed"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1186
+msgid ""
+"Choose <b>Category</b> to assign this Feed to\n"
+"Categories are useful for bulk-filtering and general organizing"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1193
+msgid "Display name for this Channel"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1197
+msgid "This is a title given by publisher and downloaded from Feed's page"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1202
+msgid "URL:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1205
+msgid "Homepage:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1207
+msgid "URL to Channel's Homepage"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1209
+msgid "Autoupdate metadata?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1213
+msgid "Fetch News?"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1214
+msgid ""
+"If disabled, Channel's news will not be fetched unless manually requested"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1217
+msgid "Fetch interval:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1219
+msgid "Set news checking/fetching interval for this Channel"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1224
+msgid "Author contact:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1227
+msgid "Publisher:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1230
+msgid "Publisher contact:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1233
+msgid "Contributors:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1239
+msgid "Tags:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1244
+msgid "Domain:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1246
+msgid "Domain used in authentication process"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1248
+msgid "Login:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1250
+msgid "Login used in authentication process"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1252
+msgid "Password:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1255
+msgid "Password used in authentication process"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1258
+msgid "Custom User Agent:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1261
+msgid "Fetching script:"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1263
+msgid ""
+"Script/command to be executed to fetch entries for this Channel. \n"
+"This script should return a <b>JSON string</b>\n"
+"See <b><i>feedex --help-scripting</i></b> for detailed specification"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1266
+msgid "Search local machine for script file"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1272
+msgid "Define <b>REGEX strings</b> for <b>HTML</b> parsing"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1400
+msgid "Choose Script File"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1420
+msgid "Valid <b>URL</b> to Channel"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1422
+msgid ""
+"Valid <b>URL</b> to WWW page to be parsed. \n"
+"For HTML parsing it is good to use Webpages with as little JavaScript as "
+"possible"
+msgstr ""
+
+#: feedex_gui_dialogs_entts.py:1425
+msgid ""
+"For <b>local</b> and <b>script</b> feeds this can be any string, as it is "
+"not used\n"
+"Local feeds are updated only by scripts or CLI (<i>--add-entry</i>, <i>--add-"
+"entries-from-file</i>, or <i>--add-entries-from-pipe</i> options)\n"
+"Scripted feeds are updated by script defined below during fetching"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:44
+msgid "Close"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:85
+msgid "Yes"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:86
+msgid "No"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:125
+msgid "Learned Rules"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:145 feedex_gui_dialogs_utils.py:1091
+#: feedex_gui_tabs.py:362 feedex_gui_tabs.py:389
+msgid "Name"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:146
+msgid "REGEX String"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:147 feedex_gui_dialogs_utils.py:1037
+#: feedex_gui_dialogs_utils.py:1100 feedex_gui_tabs.py:261
+#: feedex_gui_tabs.py:301 feedex_gui_tabs.py:328 feedex_gui_tabs.py:364
+msgid "Weight"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:148
+msgid "Query Type"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:149 feedex_gui_dialogs_utils.py:1104
+msgid "Context ID"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:152
+msgid ""
+"List of Rules learned after <b>adding Entries</b> and <b>reading Articles</"
+"b>\n"
+"<b>Name</b> - Displayed name, <i>not matched</i>, purely informational\n"
+"<b>REGEX String</b> - Regular Expression matched against tokenized Entry "
+"with prefixes and case markers\n"
+"<b>Weight</b> - Weight added to Entry when the rule is matched (rule weights "
+"are offset by Entry weight to avoid overvaluing very long articles\n"
+"<b>Query Type</b> - Is rule matched against exact words or stems?\n"
+"<b>Context ID</b> - ID of the Entry the rule was extracted from\n"
+"Hit <b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:165 feedex_gui_dialogs_utils.py:1047
+#: feedex_gui_dialogs_utils.py:1114
+msgid "Done"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:166
+msgid "Delete all"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:167
+msgid ""
+"Delete <b>All</b> learned rules\n"
+"<i>This process is PERMANENT</i>\n"
+"Rules can be relearned for all read entries by CLI command:\n"
+"<i>feedex --relearn</i>"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:184 feedex_gui_dialogs_utils.py:188
+msgid "Clear All Learned Rules?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:184
+msgid "Are you sure you want to clear <b>all leraned rules</b>?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:188
+msgid "Are you <b>really sure</b>?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:256
+msgid "  Done  "
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:285
+msgid "About FEEDEX"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:299
+msgid "   Close   "
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:343
+msgid "Choose date range"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:347
+msgid "  From:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:348
+msgid "    To:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:350 feedex_gui_dialogs_utils.py:352
+msgid "Empty"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:447
+msgid "FEEDEX Preferences"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:458
+msgid "Enable desktop notifications?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:460
+msgid "Should Feedex send desktop notifications on incomming news?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:461
+msgid "Fetch news in the background?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:462
+msgid ""
+"News will be checked in background and downloaded if Channels's fetching "
+"interval is exceeded"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:464
+msgid "Default check interval:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:466
+msgid "Default fetching interval for newly added feeds"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:468
+msgid "Ranking rules limit:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:470
+msgid ""
+"When ranking incomming news you can \n"
+"limit the number of rules to match.\n"
+"Only those with N top weight will be checked.\n"
+"This can help avoid unimportant terms influencing ranking\n"
+"and prevent scaling problems for large datasets\n"
+"Enter <b>0</b> for <b>no rule limit</b> (every rule will be checked)"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:477
+msgid "Enable Keyword learning?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:478
+msgid ""
+"If enabled, keywords are extracted and learned \n"
+"every time an article is read or marked as read.\n"
+"Incomming news are then ranked agains the rules from those extracted "
+"keywords.\n"
+"Feedex uses this ranking to get articles most likely interesting to you on "
+"top.\n"
+"If disabled, no learning will take place and ranking will be done only "
+"against rules\n"
+"that were manually added by user."
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:486
+msgid "Should incoming news be grouped? How?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:488
+msgid ""
+"How many results should be shown for each grouping?\n"
+"If no grouping is selected, it will simply show top results"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:491
+msgid "New Entry default weight:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:493
+msgid "Default weight for manually added Entries for rule learning"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:495
+msgid "Learn from added Entries?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:496
+msgid ""
+"Should Feedex learn rules/keywords from manually added entries?\n"
+"Useful for utilizing highlights and notes for news ranking"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:498
+msgid "Rule default weight:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:500
+msgid "Default weight assigned to manually added rule (if not provided)"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:502
+msgid "Weight for similarity search:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:504
+msgid ""
+"How much weight for ranking should items for which similar ones are searched "
+"for be given. Zero to disable"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:506
+msgid "Added entry color:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:510
+msgid "Deleted color:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:514
+msgid "Search hilight color:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:518
+msgid "Default flag color:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:523
+msgid "Hotkey, open new Search Tab: Ctrl + "
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:526
+msgid "Hotkey, add New Entry: Ctrl + "
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:529
+msgid "Hotkey, add New Rule: Ctrl + "
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:532
+msgid "Layout:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:533
+msgid "How main window panes should be displayed? Requires restart"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:535
+msgid "Orientation:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:536
+msgid "Pane horizontal sequence"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:542
+msgid "Ignore Images?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:543
+msgid ""
+"Should images and icons be ignored alltogether? Ueful for better performance"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:545
+msgid "Default WWW browser:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:547
+msgid ""
+"Command for opening in browser. Use <b>u%</b> symbol to substitute for URL"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:548 feedex_gui_dialogs_utils.py:550
+#: feedex_gui_dialogs_utils.py:555
+msgid "Choose from installed applications"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:551
+msgid "External image viewer:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:553
+msgid ""
+"Command for viewing images by clicking on them.\n"
+"Use <b>%u</b> symbol to substitute for temp filename\n"
+"<b>%t</b> symbol will be replaced by <b>title</b>\n"
+"<b>%a</b> symbol will be replaced by <b>alt</b> field"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:556
+msgid "External text file viewer:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:558
+#, python-format
+msgid ""
+"Command for viewing text files.\n"
+"Use <b>%u</b> symbol to substitute for temp filename"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:560
+msgid "Default WWW search engine:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:564
+msgid "Similarity query limit:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:566
+msgid "Limit similarity query items for improved query performance"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:568
+msgid "Max context length:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:570
+msgid ""
+"If the length of a context/snippet is greater than this number, it will not "
+"be shown in query results. Needed to avoid long snippets for wildcard "
+"searches"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:572
+msgid "Default grouping depth:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:574
+msgid ""
+"How many results to show when grouping in a tree? If <b>0</b>, every result "
+"will be displayed"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:577
+msgid "Error threshold:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:579
+msgid ""
+"After how many download errors should a Channel be marked as unhealthy and "
+"ignored while fetching?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:581
+msgid "Ignore modified Tags?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:582
+msgid ""
+"Should ETags and Modified fields be ignored while fetching? If yes, Feedex "
+"will fetch news even when publisher suggest not to (e.g. no changes where "
+"made to feed)"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:584
+msgid "Clear cached files older than how many days?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:586
+msgid ""
+"Files in cache include thumbnails and images. It is good to keep them but "
+"older items should release space"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:588
+msgid "Database:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:589 feedex_gui_dialogs_utils.py:594
+#: feedex_gui_dialogs_utils.py:1158
+msgid "Search filesystem"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:596
+msgid "Path to log file"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:598
+msgid "User Agent:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:603
+msgid "Redirect?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:604
+msgid "Should HTTP redirects (codes:301, 302) be followed when fetching?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:606
+msgid "Save permanent redirects?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:607
+msgid "Should permanent HTTP redirects (code: 301) be saved to DB?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:609
+msgid "Mark deleted channels as unhealthy?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:610
+msgid ""
+"Should deleted channels (HTTP code 410) be marked as unhealthy to avoid "
+"fetching in the future?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:612
+msgid "Do not save queries in History?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:613
+msgid "Should saving search phrases to History be ommitted?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:618
+msgid "Save configuration"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:620
+msgid "Restore preferences to defaults"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:716
+msgid "Interface"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:717
+msgid "Fetching"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:718
+msgid "Learning and Ranking"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:719
+msgid "System"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:758
+msgid "Choose Database"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:763
+msgid "Choose Log File"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:789
+msgid "Choose Default Browser"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:792
+msgid "Choose Image Viewer"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:795
+msgid "Choose Text File Viewer"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:822 feedex_gui_dialogs_utils.py:843
+#: feedex_gui_dialogs_utils.py:845 feedex_gui_dialogs_utils.py:850
+#: feedex_gui_dialogs_utils.py:852 feedex_gui_dialogs_utils.py:854
+#: feedex_gui_dialogs_utils.py:855 feedex_gui_dialogs_utils.py:883
+#: feedex_gui_dialogs_utils.py:885 feedex_gui_dialogs_utils.py:887
+#: feedex_gui_dialogs_utils.py:892 feedex_gui_dialogs_utils.py:893
+#: feedex_gui_utils.py:772
+msgid "<<ERROR>>"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1016
+msgid "Keywords"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1036
+msgid "Keyword"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1039
+msgid ""
+"Keywords extracted from entry\n"
+"Hit <b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1069
+msgid "Matched Rules"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1092
+msgid "String"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1093
+msgid "Matched"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1094 feedex_gui_tabs.py:367
+msgid "Learned?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1095
+msgid "Case insensitive?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1096
+msgid "Query type"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1097
+msgid "Field"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1098
+msgid "Feed/Category"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1099 feedex_headers.py:389 feedex_headers.py:501
+msgid "Language"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1101 feedex_gui_tabs.py:259
+#: feedex_gui_tabs.py:299
+msgid "Flag ID"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1102
+msgid "Flag name"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1103
+msgid "Additive?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1106
+msgid ""
+"Rules matched for this Entry\n"
+"Hit <b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1146 feedex_gui_main.py:145
+msgid "Archive..."
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1153
+msgid "Which Entries should be archived?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1155
+msgid "Target Database:"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1157
+msgid "Database in which entries should be archived"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1160
+msgid "Archive Rules as well?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1161
+msgid ""
+"Should old rules be archived? If yes, they will no longer be used in ranking"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1164
+msgid "Keep read Entries?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1165 feedex_gui_dialogs_utils.py:1169
+msgid ""
+"If checked, read Entries will be kept in current database and not archived"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1168
+msgid "Keep flagged Entries?"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1173
+msgid "Archive"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1173
+msgid "Start archiving"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1210
+msgid "Choose Archive DB"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1222
+msgid "Archive DB"
+msgstr ""
+
+#: feedex_gui_dialogs_utils.py:1222
+msgid ""
+"Are you sure you want to archive old Entries? This operation may take a long "
+"time."
+msgstr ""
+
+#: feedex_gui_feeds.py:58
+msgid ""
+"These are available <b>Places</b>, <b>Channels</b> and <b>Categories</b>\n"
+"Double-click on a place to quickly load entries  \n"
+"Double-click on feed or category to filter results by chosen item\n"
+"Right click for more options\n"
+"Hit <b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_feeds.py:108
+msgid "%a selected for moving..."
+msgstr ""
+
+#: feedex_gui_feeds.py:245
+msgid "New"
+msgstr ""
+
+#: feedex_gui_feeds.py:250
+msgid "Previous Update"
+msgstr ""
+
+#: feedex_gui_feeds.py:255 feedex_gui_tabs.py:721 feedex_gui_utils.py:328
+msgid "Last Hour"
+msgstr ""
+
+#: feedex_gui_feeds.py:265
+msgid "This Week"
+msgstr ""
+
+#: feedex_gui_feeds.py:270
+msgid "This Month"
+msgstr ""
+
+#: feedex_gui_feeds.py:275
+msgid "This Quarter"
+msgstr ""
+
+#: feedex_gui_feeds.py:310 feedex_gui_utils.py:470
+msgid "RSS"
+msgstr ""
+
+#: feedex_gui_feeds.py:324 feedex_gui_utils.py:470
+msgid "Script"
+msgstr ""
+
+#: feedex_gui_feeds.py:331 feedex_gui_utils.py:473
+msgid "Local"
+msgstr ""
+
+#: feedex_gui_feeds.py:343
+msgid "Trash"
+msgstr ""
+
+#: feedex_gui_main.py:23
+msgid ""
+"feedex_main_container should be an instance of FeedexMainDataContainer class!"
+msgstr ""
+
+#: feedex_gui_main.py:66
+msgid "Feedex: Database is Locked"
+msgstr ""
+
+#: feedex_gui_main.py:67
+msgid ""
+"Another instance can be performing operations on Database or Feedex did not "
+"close properly last time. Proceed anyway?"
+msgstr ""
+
+#: feedex_gui_main.py:79
+msgid "Feedex: Database Error!"
+msgstr ""
+
+#: feedex_gui_main.py:79
+msgid "Application could not be started! I am sorry for inconvenience :("
+msgstr ""
+
+#: feedex_gui_main.py:133
+msgid "Export Feed data to JSON"
+msgstr ""
+
+#: feedex_gui_main.py:134
+msgid "Export Rules to JSON"
+msgstr ""
+
+#: feedex_gui_main.py:135
+msgid "Export Flags to JSON"
+msgstr ""
+
+#: feedex_gui_main.py:139
+msgid "Import Feed data from JSON"
+msgstr ""
+
+#: feedex_gui_main.py:140
+msgid "Import Rules data from JSON"
+msgstr ""
+
+#: feedex_gui_main.py:141
+msgid "Import Flags data from JSON"
+msgstr ""
+
+#: feedex_gui_main.py:145
+msgid ""
+"Archive entries older than certain time threshold to a separate DB.\n"
+"It can be then packed or deleted"
+msgstr ""
+
+#: feedex_gui_main.py:147
+msgid "Maintenance..."
+msgstr ""
+
+#: feedex_gui_main.py:147
+msgid ""
+"Maintenance can improve performance for large databases by doing cleanup and "
+"reindexing.\n"
+"It will also take some time to perform"
+msgstr ""
+
+#: feedex_gui_main.py:150
+msgid "Clear cache"
+msgstr ""
+
+#: feedex_gui_main.py:150
+msgid ""
+"Clear downloaded temporary files with images/thumbnails to reclaim disk space"
+msgstr ""
+
+#: feedex_gui_main.py:152
+msgid "Database statistics"
+msgstr ""
+
+#: feedex_gui_main.py:157 feedex_gui_tabs.py:88
+msgid "Rules"
+msgstr ""
+
+#: feedex_gui_main.py:157
+msgid "Open a new tab showing Saved Rules"
+msgstr ""
+
+#: feedex_gui_main.py:158 feedex_gui_tabs.py:90
+msgid "Flags"
+msgstr ""
+
+#: feedex_gui_main.py:158
+msgid "Open a new tab showing Flags"
+msgstr ""
+
+#: feedex_gui_main.py:160
+msgid "Preferences"
+msgstr ""
+
+#: feedex_gui_main.py:162
+msgid "Export..."
+msgstr ""
+
+#: feedex_gui_main.py:163
+msgid "Import..."
+msgstr ""
+
+#: feedex_gui_main.py:165
+msgid "Database..."
+msgstr ""
+
+#: feedex_gui_main.py:167
+msgid "View log"
+msgstr ""
+
+#: feedex_gui_main.py:169
+msgid "About Feedex..."
+msgstr ""
+
+#: feedex_gui_main.py:174 feedex_gui_tabs.py:94
+msgid "Summary"
+msgstr ""
+
+#: feedex_gui_main.py:174
+msgid "Search entries grouping them in a tree summary"
+msgstr ""
+
+#: feedex_gui_main.py:175 feedex_gui_tabs.py:78
+msgid "Search"
+msgstr ""
+
+#: feedex_gui_main.py:175
+msgid "Search entries"
+msgstr ""
+
+#: feedex_gui_main.py:177
+msgid "Show Contexts for a Term"
+msgstr ""
+
+#: feedex_gui_main.py:177
+msgid "Search for Term Contexts"
+msgstr ""
+
+#: feedex_gui_main.py:178
+msgid "Show Time Series for a Term"
+msgstr ""
+
+#: feedex_gui_main.py:178
+msgid "Generate time series plot"
+msgstr ""
+
+#: feedex_gui_main.py:180
+msgid "Search for Related Terms"
+msgstr ""
+
+#: feedex_gui_main.py:180
+msgid "Search for Related Terms from read/opened entries"
+msgstr ""
+
+#: feedex_gui_main.py:194
+msgid "Main Menu"
+msgstr ""
+
+#: feedex_gui_main.py:204
+msgid "Open a new tab for Searches..."
+msgstr ""
+
+#: feedex_gui_main.py:406
+msgid "Add Entry"
+msgstr ""
+
+#: feedex_gui_main.py:413
+msgid "Read (+1)"
+msgstr ""
+
+#: feedex_gui_main.py:413
+msgid ""
+"Number of reads if counted towards this entry keyword's weight when ranking "
+"incoming articles"
+msgstr ""
+
+#: feedex_gui_main.py:414 feedex_gui_utils.py:393
+msgid "Unread"
+msgstr ""
+
+#: feedex_gui_main.py:414
+msgid "Unread document does not contriute to ranking rules"
+msgstr ""
+
+#: feedex_gui_main.py:415
+msgid "Unimportant"
+msgstr ""
+
+#: feedex_gui_main.py:415
+msgid "Mark this as unimportant and learn negative rules"
+msgstr ""
+
+#: feedex_gui_main.py:417
+msgid "Mark as..."
+msgstr ""
+
+#: feedex_gui_main.py:426
+msgid "Unflag Entry"
+msgstr ""
+
+#: feedex_gui_main.py:426
+msgid "Remove Flags from Entry"
+msgstr ""
+
+#: feedex_gui_main.py:428
+msgid "Flag..."
+msgstr ""
+
+#: feedex_gui_main.py:434
+msgid "Delete permanently"
+msgstr ""
+
+#: feedex_gui_main.py:435
+msgid "Delete"
+msgstr ""
+
+#: feedex_gui_main.py:438
+msgid "Last update"
+msgstr ""
+
+#: feedex_gui_main.py:440
+msgid "Last Week"
+msgstr ""
+
+#: feedex_gui_main.py:441
+msgid "Last Month"
+msgstr ""
+
+#: feedex_gui_main.py:442
+msgid "Last Quarter"
+msgstr ""
+
+#: feedex_gui_main.py:443
+msgid "Last Year"
+msgstr ""
+
+#: feedex_gui_main.py:444
+msgid "Select Range..."
+msgstr ""
+
+#: feedex_gui_main.py:447
+msgid "Find Similar Entries"
+msgstr ""
+
+#: feedex_gui_main.py:447
+msgid "Find Entries similar to the one selected"
+msgstr ""
+
+#: feedex_gui_main.py:449
+msgid "Show Time Relevance"
+msgstr ""
+
+#: feedex_gui_main.py:449
+msgid "Search for this Entry's Keywords in time"
+msgstr ""
+
+#: feedex_gui_main.py:452
+msgid "Articles"
+msgstr ""
+
+#: feedex_gui_main.py:452
+msgid "Search for other documents by this Author"
+msgstr ""
+
+#: feedex_gui_main.py:453
+msgid "Activity in Time"
+msgstr ""
+
+#: feedex_gui_main.py:453
+msgid "Search for other documents by this Author in Time Series"
+msgstr ""
+
+#: feedex_gui_main.py:455 feedex_gui_main.py:632
+msgid "Search WWW"
+msgstr ""
+
+#: feedex_gui_main.py:455
+msgid "Search WWW for this Author's info"
+msgstr ""
+
+#: feedex_gui_main.py:457
+msgid "Other by this Author..."
+msgstr ""
+
+#: feedex_gui_main.py:457
+msgid "Search for this Author"
+msgstr ""
+
+#: feedex_gui_main.py:461
+msgid "Show Keywords for Entry"
+msgstr ""
+
+#: feedex_gui_main.py:462
+msgid "Show Matched Rules for Entry"
+msgstr ""
+
+#: feedex_gui_main.py:463
+msgid "Details..."
+msgstr ""
+
+#: feedex_gui_main.py:463
+msgid "Show all entry's technical data"
+msgstr ""
+
+#: feedex_gui_main.py:467 feedex_gui_main.py:513 feedex_gui_main.py:524
+msgid "Save results to CSV"
+msgstr ""
+
+#: feedex_gui_main.py:467 feedex_gui_main.py:513 feedex_gui_main.py:524
+msgid "Save results from current tab"
+msgstr ""
+
+#: feedex_gui_main.py:471 feedex_gui_main.py:500 feedex_gui_main.py:515
+#: feedex_gui_main.py:526 feedex_gui_main.py:544 feedex_gui_main.py:1580
+msgid "Clear Search History"
+msgstr ""
+
+#: feedex_gui_main.py:473 feedex_gui_main.py:604 feedex_gui_main.py:1570
+msgid "Empty Trash"
+msgstr ""
+
+#: feedex_gui_main.py:475 feedex_gui_main.py:502 feedex_gui_main.py:517
+#: feedex_gui_main.py:528 feedex_gui_main.py:545
+msgid "Save layout"
+msgstr ""
+
+#: feedex_gui_main.py:475 feedex_gui_main.py:502 feedex_gui_main.py:517
+#: feedex_gui_main.py:528 feedex_gui_main.py:545
+msgid ""
+"Save column layout and sizing for current tab.\n"
+"It will be used as default in the future"
+msgstr ""
+
+#: feedex_gui_main.py:477 feedex_gui_main.py:530
+msgid "Save filters"
+msgstr ""
+
+#: feedex_gui_main.py:477 feedex_gui_main.py:530
+msgid "Save current search filters as defaults for future"
+msgstr ""
+
+#: feedex_gui_main.py:481
+msgid "Expand all"
+msgstr ""
+
+#: feedex_gui_main.py:482
+msgid "Collapse all"
+msgstr ""
+
+#: feedex_gui_main.py:489
+msgid "Add Rule"
+msgstr ""
+
+#: feedex_gui_main.py:492 feedex_gui_main.py:1675
+msgid "Delete Rule"
+msgstr ""
+
+#: feedex_gui_main.py:494
+msgid "Search for this Rule"
+msgstr ""
+
+#: feedex_gui_main.py:495 feedex_gui_main.py:508 feedex_gui_main.py:628
+msgid "Show this Term's Contexts"
+msgstr ""
+
+#: feedex_gui_main.py:496 feedex_gui_main.py:509 feedex_gui_main.py:629
+msgid "Show Terms related to this Term"
+msgstr ""
+
+#: feedex_gui_main.py:497 feedex_gui_main.py:510 feedex_gui_main.py:630
+msgid "Show Time Series for this Term"
+msgstr ""
+
+#: feedex_gui_main.py:501
+msgid "Show Learned Rules"
+msgstr ""
+
+#: feedex_gui_main.py:501
+msgid "Display rules learned from User's habits along with weights"
+msgstr ""
+
+#: feedex_gui_main.py:507 feedex_gui_main.py:627
+msgid "Search for this Term"
+msgstr ""
+
+#: feedex_gui_main.py:522
+msgid "Search this Time Range"
+msgstr ""
+
+#: feedex_gui_main.py:535
+msgid "Add Flag"
+msgstr ""
+
+#: feedex_gui_main.py:538 feedex_gui_main.py:1725
+msgid "Delete Flag"
+msgstr ""
+
+#: feedex_gui_main.py:540
+msgid "Search for this Flag"
+msgstr ""
+
+#: feedex_gui_main.py:541
+msgid "Show Time Series for this Flag"
+msgstr ""
+
+#: feedex_gui_main.py:552
+msgid "Show from newest..."
+msgstr ""
+
+#: feedex_gui_main.py:552
+msgid "Show articles for this Channel or Category sorted from newest"
+msgstr ""
+
+#: feedex_gui_main.py:555
+msgid "Add Channel"
+msgstr ""
+
+#: feedex_gui_main.py:556
+msgid "Add Category"
+msgstr ""
+
+#: feedex_gui_main.py:562
+msgid "Move Category..."
+msgstr ""
+
+#: feedex_gui_main.py:563
+msgid "Move Feed..."
+msgstr ""
+
+#: feedex_gui_main.py:576
+msgid "Restore..."
+msgstr ""
+
+#: feedex_gui_main.py:577
+msgid "Remove Permanently"
+msgstr ""
+
+#: feedex_gui_main.py:582
+msgid "Go to Channel's Homepage"
+msgstr ""
+
+#: feedex_gui_main.py:586
+msgid "Fetch from selected Channel"
+msgstr ""
+
+#: feedex_gui_main.py:587
+msgid "Update metadata for Channel"
+msgstr ""
+
+#: feedex_gui_main.py:588
+msgid "Update metadata for All Channels"
+msgstr ""
+
+#: feedex_gui_main.py:591
+msgid "Edit Channel"
+msgstr ""
+
+#: feedex_gui_main.py:592
+msgid "Mark Channel as healthy"
+msgstr ""
+
+#: feedex_gui_main.py:592
+msgid ""
+"This will nullify error count for this Channel so it will not be ommited on "
+"next fetching"
+msgstr ""
+
+#: feedex_gui_main.py:594
+msgid "Remove Channel"
+msgstr ""
+
+#: feedex_gui_main.py:595
+msgid "Technical details..."
+msgstr ""
+
+#: feedex_gui_main.py:595
+msgid "Show all technical information about this Channel"
+msgstr ""
+
+#: feedex_gui_main.py:598
+msgid "Edit Category"
+msgstr ""
+
+#: feedex_gui_main.py:599
+msgid "Remove Category"
+msgstr ""
+
+#: feedex_gui_main.py:632
+msgid "Search WWW for selected text"
+msgstr ""
+
+#: feedex_gui_main.py:634
+msgid "Add as Rule"
+msgstr ""
+
+#: feedex_gui_main.py:1127 feedex_gui_utils.py:866
+msgid "Image error: %a"
+msgstr ""
+
+#: feedex_gui_main.py:1173 feedex_gui_main.py:1182 feedex_gui_main.py:1191
+msgid "Checking for news ..."
+msgstr ""
+
+#: feedex_gui_main.py:1200
+msgid "Database is Locked for Fetching"
+msgstr ""
+
+#: feedex_gui_main.py:1201
+msgid ""
+"Another instance may be fetching news right now. If not, proceed with "
+"operation. Proceed?"
+msgstr ""
+
+#: feedex_gui_main.py:1207
+msgid "Database manually unlocked for fetching..."
+msgstr ""
+
+#: feedex_gui_main.py:1278
+msgid "Updating channel..."
+msgstr ""
+
+#: feedex_gui_main.py:1288
+msgid "Updating all channels..."
+msgstr ""
+
+#: feedex_gui_main.py:1346
+msgid "Adding Channel..."
+msgstr ""
+
+#: feedex_gui_main.py:1381
+msgid "Adding entry..."
+msgstr ""
+
+#: feedex_gui_main.py:1382
+msgid "Updating entry ..."
+msgstr ""
+
+#: feedex_gui_main.py:1439
+msgid "Delete Entry"
+msgstr ""
+
+#: feedex_gui_main.py:1441
+msgid "Delete Entry permanently"
+msgstr ""
+
+#: feedex_gui_main.py:1457
+msgid "Restore Entry"
+msgstr ""
+
+#: feedex_gui_main.py:1522
+msgid "Delete Channel"
+msgstr ""
+
+#: feedex_gui_main.py:1525
+msgid "Delete Channel permanently"
+msgstr ""
+
+#: feedex_gui_main.py:1528 feedex_gui_main.py:1531
+msgid "Delete Category"
+msgstr ""
+
+#: feedex_gui_main.py:1551
+msgid "Restore Category"
+msgstr ""
+
+#: feedex_gui_main.py:1553
+msgid "Restore Channel"
+msgstr ""
+
+#: feedex_gui_main.py:1580
+msgid "Are you sure you want to clear <b>Search History</b>?"
+msgstr ""
+
+#: feedex_gui_main.py:1638
+msgid "Updating ..."
+msgstr ""
+
+#: feedex_gui_main.py:1782
+msgid "Done..."
+msgstr ""
+
+#: feedex_gui_main.py:1792
+msgid "Opening ..."
+msgstr ""
+
+#: feedex_gui_main.py:1824
+msgid "Error saving configuration to %a"
+msgstr ""
+
+#: feedex_gui_main.py:1835
+msgid "Restart Required"
+msgstr ""
+
+#: feedex_gui_main.py:1835
+msgid "Restart is required for all changes to be applied."
+msgstr ""
+
+#: feedex_gui_main.py:1835
+msgid "OK"
+msgstr ""
+
+#: feedex_gui_main.py:1838
+msgid "Configuration saved successfully"
+msgstr ""
+
+#: feedex_gui_main.py:1884
+msgid "Database Statistics"
+msgstr ""
+
+#: feedex_gui_main.py:1943
+msgid "Stemmed"
+msgstr ""
+
+#: feedex_gui_main.py:1944
+msgid "Exact"
+msgstr ""
+
+#: feedex_gui_main.py:1961
+msgid "Dataset Empty"
+msgstr ""
+
+#: feedex_gui_main.py:1961
+msgid "There are no learned rules to display"
+msgstr ""
+
+#: feedex_gui_main.py:1989
+msgid "Nothing to show"
+msgstr ""
+
+#: feedex_gui_main.py:2047
+msgid "DB Maintenance"
+msgstr ""
+
+#: feedex_gui_main.py:2047
+msgid "Are you sure you want to DB maintenance? This may take a long time..."
+msgstr ""
+
+#: feedex_gui_main.py:2072
+msgid "Clear Cache"
+msgstr ""
+
+#: feedex_gui_main.py:2072
+msgid "Do you want to delete all downloaded and cached images/thumbnails?"
+msgstr ""
+
+#: feedex_gui_main.py:2076
+msgid "Clearing cache ..."
+msgstr ""
+
+#: feedex_gui_main.py:2092
+msgid "Save as.."
+msgstr ""
+
+#: feedex_gui_main.py:2095
+msgid "Open file"
+msgstr ""
+
+#: feedex_gui_main.py:2152
+msgid "Update Feed Data"
+msgstr ""
+
+#: feedex_gui_main.py:2152
+msgid "New feed data has been imported. Download Metadata now?"
+msgstr ""
+
+#: feedex_gui_main.py:2184
+msgid "Nothing to save..."
+msgstr ""
+
+#: feedex_gui_main.py:2212
+msgid "Error saving to %a"
+msgstr ""
+
+#: feedex_gui_main.py:2214
+msgid "Results saved to %a..."
+msgstr ""
+
+#: feedex_gui_tabs.py:80
+msgid "News"
+msgstr ""
+
+#: feedex_gui_tabs.py:82
+msgid "Search Contexts"
+msgstr ""
+
+#: feedex_gui_tabs.py:84
+msgid "Search Terms"
+msgstr ""
+
+#: feedex_gui_tabs.py:86
+msgid "Time Series"
+msgstr ""
+
+#: feedex_gui_tabs.py:92
+msgid "Entry Relevance in Time"
+msgstr ""
+
+#: feedex_gui_tabs.py:128
+msgid "Clear search phrase"
+msgstr ""
+
+#: feedex_gui_tabs.py:140
+msgid "Restore filters to defaults"
+msgstr ""
+
+#: feedex_gui_tabs.py:145
+msgid "Select time series grouping"
+msgstr ""
+
+#: feedex_gui_tabs.py:149
+msgid "Select grouping field"
+msgstr ""
+
+#: feedex_gui_tabs.py:150
+msgid "Select how many top results to show for each grouping"
+msgstr ""
+
+#: feedex_gui_tabs.py:151
+msgid ""
+"Default sorting field for empty queries\n"
+"Use <b>Debubble</b> to show news with the least importance for each grouping"
+msgstr ""
+
+#: feedex_gui_tabs.py:161
+msgid ""
+"Filter for Read/Unread news. Manually added entries are marked as read by "
+"default"
+msgstr ""
+
+#: feedex_gui_tabs.py:162
+msgid "Filter by Flag or lack thereof"
+msgstr ""
+
+#: feedex_gui_tabs.py:165
+msgid "Which handler protocols should be taken into account?"
+msgstr ""
+
+#: feedex_gui_tabs.py:170
+msgid "Search in All or a specific field"
+msgstr ""
+
+#: feedex_gui_tabs.py:170
+msgid "-- No Field --"
+msgstr ""
+
+#: feedex_gui_tabs.py:172
+msgid "Detect case"
+msgstr ""
+
+#: feedex_gui_tabs.py:172
+msgid "Set query case sensitivity"
+msgstr ""
+
+#: feedex_gui_tabs.py:245 feedex_gui_tabs.py:293
+msgid "Date"
+msgstr ""
+
+#: feedex_gui_tabs.py:247 feedex_gui_tabs.py:248 feedex_gui_tabs.py:295
+#: feedex_headers.py:394
+msgid "Title"
+msgstr ""
+
+#: feedex_gui_tabs.py:250 feedex_gui_tabs.py:294
+msgid "Source"
+msgstr ""
+
+#: feedex_gui_tabs.py:251 feedex_gui_tabs.py:390 feedex_headers.py:395
+msgid "Description"
+msgstr ""
+
+#: feedex_gui_tabs.py:252 feedex_headers.py:390
+msgid "Author"
+msgstr ""
+
+#: feedex_gui_tabs.py:253 feedex_headers.py:391
+msgid "Publisher"
+msgstr ""
+
+#: feedex_gui_tabs.py:255 feedex_gui_tabs.py:296 feedex_gui_tabs.py:368
+msgid "Flag"
+msgstr ""
+
+#: feedex_gui_tabs.py:256 feedex_gui_tabs.py:297
+msgid "Publ. Timestamp"
+msgstr ""
+
+#: feedex_gui_tabs.py:257
+msgid "Added"
+msgstr ""
+
+#: feedex_gui_tabs.py:258 feedex_gui_tabs.py:298
+msgid "Read?"
+msgstr ""
+
+#: feedex_gui_tabs.py:260 feedex_gui_tabs.py:300
+msgid "Importance"
+msgstr ""
+
+#: feedex_gui_tabs.py:262 feedex_gui_tabs.py:302
+msgid "Readability"
+msgstr ""
+
+#: feedex_gui_tabs.py:263 feedex_gui_tabs.py:303
+msgid "Word Count"
+msgstr ""
+
+#: feedex_gui_tabs.py:264 feedex_gui_tabs.py:304
+msgid "Link"
+msgstr ""
+
+#: feedex_gui_tabs.py:265 feedex_gui_tabs.py:305
+msgid "Term Count"
+msgstr ""
+
+#: feedex_gui_tabs.py:266 feedex_gui_tabs.py:306
+msgid "Search Rank"
+msgstr ""
+
+#: feedex_gui_tabs.py:270
+msgid ""
+"Double-click to open in browser. \n"
+"Right-click for more options\n"
+"Hit <b>Ctrl-F</b> for interactive search by Title"
+msgstr ""
+
+#: feedex_gui_tabs.py:292
+msgid "Context"
+msgstr ""
+
+#: feedex_gui_tabs.py:309
+msgid ""
+"Search phrase in context is shown here.\n"
+"Double-click to open the entry containing a context.\n"
+"Right-click for more options\n"
+"Hit <b>Ctrl-F</b> for interactive search by Title"
+msgstr ""
+
+#: feedex_gui_tabs.py:327
+msgid "Term"
+msgstr ""
+
+#: feedex_gui_tabs.py:329 feedex_gui_tabs.py:349
+msgid "Count"
+msgstr ""
+
+#: feedex_gui_tabs.py:332
+msgid ""
+"These are terms from read entries related to the one queries for. Hit "
+"<b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_tabs.py:347
+msgid "Time"
+msgstr ""
+
+#: feedex_gui_tabs.py:363
+msgid "Search String"
+msgstr ""
+
+#: feedex_gui_tabs.py:365
+msgid "Case ins."
+msgstr ""
+
+#: feedex_gui_tabs.py:366
+msgid "Type"
+msgstr ""
+
+#: feedex_gui_tabs.py:369
+msgid "On Field"
+msgstr ""
+
+#: feedex_gui_tabs.py:370
+msgid "On Feed/Category"
+msgstr ""
+
+#: feedex_gui_tabs.py:373
+msgid ""
+"These are manually added rules used for ranking and flagging. \n"
+"Double-click to edit. \n"
+"Right-click for more options\n"
+"Hit <b>Ctrl-F</b> for interactive search"
+msgstr ""
+
+#: feedex_gui_tabs.py:388
+msgid "Id"
+msgstr ""
+
+#: feedex_gui_tabs.py:393
+msgid ""
+"Flags used in rules and for manual marking of Entries\n"
+"Right-click for more options"
+msgstr ""
+
+#: feedex_gui_tabs.py:468
+msgid "Filters saved as defaults"
+msgstr ""
+
+#: feedex_gui_tabs.py:517
+msgid ""
+"Enter your search phrase here\n"
+"Wildcard: <b>*</b> or <b>.</b> (single character)\n"
+"Field beginning: <b>^</b>\n"
+"Field end: <b>$</b>\n"
+"Near: <b>~(number of words)</b>\n"
+"Escape: \\ (only if before wildcard)"
+msgstr ""
+
+#: feedex_gui_tabs.py:525
+msgid ""
+"Enter your search string here\n"
+"Wildcard: <b>*</b> or <b>.</b> (single character)\n"
+"Field beginning: <b>^</b>\n"
+"Field end: <b>$</b>\n"
+"Escape: \\ (only if before wildcard)"
+msgstr ""
+
+#: feedex_gui_tabs.py:683
+msgid "Results"
+msgstr ""
+
+#: feedex_gui_tabs.py:709
+msgid "Trash bin"
+msgstr ""
+
+#: feedex_gui_tabs.py:715 feedex_gui_tabs.py:718
+msgid "New Entries"
+msgstr ""
+
+#: feedex_gui_tabs.py:727 feedex_gui_utils.py:330
+msgid "Week"
+msgstr ""
+
+#: feedex_gui_tabs.py:730 feedex_gui_utils.py:331
+msgid "Month"
+msgstr ""
+
+#: feedex_gui_tabs.py:733 feedex_gui_utils.py:332
+msgid "Quarter"
+msgstr ""
+
+#: feedex_gui_tabs.py:736 feedex_gui_utils.py:333
+msgid "Six Months"
+msgstr ""
+
+#: feedex_gui_tabs.py:739 feedex_gui_utils.py:334
+msgid "Year"
+msgstr ""
+
+#: feedex_gui_tabs.py:747
+msgid "Similar to ..."
+msgstr ""
+
+#: feedex_gui_tabs.py:792
+msgid "Searching..."
+msgstr ""
+
+#: feedex_gui_tabs.py:939
+msgid "Filtering..."
+msgstr ""
+
+#: feedex_gui_utils.py:251
+msgid ""
+"Search engine to use for browser searches. Use <b>Q%</b> symbol to "
+"substitute for query"
+msgstr ""
+
+#: feedex_gui_utils.py:268
+msgid ""
+"Choose icon for this Channel. Leave empty to diplay downloaded logo, if "
+"present"
+msgstr ""
+
+#: feedex_gui_utils.py:286
+msgid "Standard"
+msgstr ""
+
+#: feedex_gui_utils.py:287
+msgid "Standard, preview on top"
+msgstr ""
+
+#: feedex_gui_utils.py:288
+msgid "Vertical panes"
+msgstr ""
+
+#: feedex_gui_utils.py:295
+msgid "Left to Right"
+msgstr ""
+
+#: feedex_gui_utils.py:296
+msgid "Right to Left"
+msgstr ""
+
+#: feedex_gui_utils.py:303
+msgid "System default"
+msgstr ""
+
+#: feedex_gui_utils.py:314
+msgid "Older than 3 months"
+msgstr ""
+
+#: feedex_gui_utils.py:315
+msgid "Older than 6 months"
+msgstr ""
+
+#: feedex_gui_utils.py:316
+msgid "Older than 1 year"
+msgstr ""
+
+#: feedex_gui_utils.py:317
+msgid "Older than 2 years"
+msgstr ""
+
+#: feedex_gui_utils.py:318
+msgid "Older than 3 years"
+msgstr ""
+
+#: feedex_gui_utils.py:327
+msgid "Last Update"
+msgstr ""
+
+#: feedex_gui_utils.py:335
+msgid "Choose dates..."
+msgstr ""
+
+#: feedex_gui_utils.py:347
+msgid "Group Monthly"
+msgstr ""
+
+#: feedex_gui_utils.py:348
+msgid "Group Daily"
+msgstr ""
+
+#: feedex_gui_utils.py:349
+msgid "Group Hourly"
+msgstr ""
+
+#: feedex_gui_utils.py:356
+msgid "Group by Category"
+msgstr ""
+
+#: feedex_gui_utils.py:357
+msgid "Group by Channel"
+msgstr ""
+
+#: feedex_gui_utils.py:358
+msgid "Group by Flag"
+msgstr ""
+
+#: feedex_gui_utils.py:360
+msgid "No Grouping"
+msgstr ""
+
+#: feedex_gui_utils.py:367
+msgid "Top 5"
+msgstr ""
+
+#: feedex_gui_utils.py:368
+msgid "Top 10"
+msgstr ""
+
+#: feedex_gui_utils.py:369
+msgid "Top 15"
+msgstr ""
+
+#: feedex_gui_utils.py:370
+msgid "Top 20"
+msgstr ""
+
+#: feedex_gui_utils.py:371
+msgid "Top 30"
+msgstr ""
+
+#: feedex_gui_utils.py:372
+msgid "Top 50"
+msgstr ""
+
+#: feedex_gui_utils.py:380
+msgid "Sort by Importance"
+msgstr ""
+
+#: feedex_gui_utils.py:381
+msgid "Sort by Date"
+msgstr ""
+
+#: feedex_gui_utils.py:382
+msgid "\"Debubble\""
+msgstr ""
+
+#: feedex_gui_utils.py:391
+msgid "Read and Unread"
+msgstr ""
+
+#: feedex_gui_utils.py:392
+msgid "Read"
+msgstr ""
+
+#: feedex_gui_utils.py:403
+msgid "Flagged and Unflagged"
+msgstr ""
+
+#: feedex_gui_utils.py:404
+msgid "Unflagged"
+msgstr ""
+
+#: feedex_gui_utils.py:405
+msgid "All Flags"
+msgstr ""
+
+#: feedex_gui_utils.py:409
+msgid "No Flag"
+msgstr ""
+
+#: feedex_gui_utils.py:418
+msgid "Choose color for command line interface "
+msgstr ""
+
+#: feedex_gui_utils.py:428
+msgid "-- No Category --"
+msgstr ""
+
+#: feedex_gui_utils.py:463
+msgid ""
+"Choose Channel's protocol handler:\n"
+"<b>RSS</b> - use RSS protocol\n"
+"<b>HTML</b> - download webpage and parse it with defined REGEX rules for "
+"each field\n"
+"<b>Script</b> - fetched by User's script \n"
+"<b>Local</b> - no downloads. Can be populated by scripts or command line\n"
+"using <i>--add-entries</i>, <i>--add-entries-from-file</i>, <i>--add-entries-"
+"from-pipe</i> options\n"
+msgstr ""
+
+#: feedex_gui_utils.py:475
+msgid "All handlers"
+msgstr ""
+
+#: feedex_gui_utils.py:482
+msgid "Chose Channel's authentication method"
+msgstr ""
+
+#: feedex_gui_utils.py:484
+msgid "No Authentication"
+msgstr ""
+
+#: feedex_gui_utils.py:485
+msgid "Detect Auth. Method"
+msgstr ""
+
+#: feedex_gui_utils.py:486
+msgid "Digest"
+msgstr ""
+
+#: feedex_gui_utils.py:487
+msgid "Basic"
+msgstr ""
+
+#: feedex_gui_utils.py:501 feedex_gui_utils.py:508
+msgid "String matching"
+msgstr ""
+
+#: feedex_gui_utils.py:501 feedex_gui_utils.py:508
+msgid "Normal query"
+msgstr ""
+
+#: feedex_gui_utils.py:501 feedex_gui_utils.py:508
+msgid "Exact query"
+msgstr ""
+
+#: feedex_gui_utils.py:502
+msgid ""
+"Set query type to match this rule:\n"
+"<b>String matching</b>: simple string comparison\n"
+"<b>Normal:</b> stemmed and tokenized\n"
+"<b>Exact</b>: unstemmed and tokenized\n"
+"<b>REGEX</b>: REGEX matching"
+msgstr ""
+
+#: feedex_gui_utils.py:509
+msgid ""
+"Set query type:\n"
+"<b>Normal:</b> stemmed and tokenized\n"
+"<b>Exact</b>: unstemmed and tokenized\n"
+"<b>String matching</b>: simple string comparison"
+msgstr ""
+
+#: feedex_gui_utils.py:521
+msgid "Select language used fort query tokenizing and stemming"
+msgstr ""
+
+#: feedex_gui_utils.py:523
+msgid "All Languages"
+msgstr ""
+
+#: feedex_gui_utils.py:825 feedex_gui_utils.py:839
+msgid "Resource too large! Schould be %a max"
+msgstr ""
+
+#: feedex_gui_utils.py:965
+msgid "Expanded feeds invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:972
+msgid "Result column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:980
+msgid "Contexts column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:987
+msgid "Terms column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:994
+msgid "Time series column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1001
+msgid "Rules column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1008
+msgid "Flags column attributes invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1017
+msgid "Results column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1024
+msgid "Contexts column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1031
+msgid "Terms column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1038
+msgid "Time series column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1045
+msgid "Rules column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_gui_utils.py:1052
+msgid "Flags column order invalid. Defaulting ..."
+msgstr ""
+
+#: feedex_handlers.py:62
+msgid "Invalid type of input feed! Should be a FeedContainer or dict!"
+msgstr ""
+
+#: feedex_handlers.py:82
+msgid ""
+"Unrecognized authentication handler (%a). Must be \"digest\" or \"basic\""
+msgstr ""
+
+#: feedex_handlers.py:135
+msgid "Could not read HTTP status"
+msgstr ""
+
+#: feedex_handlers.py:150
+msgid "URL to resource empty!"
+msgstr ""
+
+#: feedex_handlers.py:199
+msgid "Feed unchanged (304)"
+msgstr ""
+
+#: feedex_handlers.py:206
+msgid "Feed unchanged (Published Date)"
+msgstr ""
+
+#: feedex_handlers.py:466 feedex_handlers.py:596
+msgid "<ERROR>"
+msgstr ""
+
+#: feedex_handlers.py:550
+msgid "Resource too big!"
+msgstr ""
+
+#: feedex_handlers.py:561
+msgid "Downloaded resource could not be converted to text"
+msgstr ""
+
+#: feedex_handlers.py:621
+msgid "No script file provided!"
+msgstr ""
+
+#: feedex_headers.py:69
+msgid "Personal News and Notes organizer"
+msgstr ""
+
+#: feedex_headers.py:388
+msgid "Feed ID"
+msgstr ""
+
+#: feedex_headers.py:392
+msgid "Contributors"
+msgstr ""
+
+#: feedex_headers.py:396
+msgid "Tags"
+msgstr ""
+
+#: feedex_headers.py:398
+msgid "Text"
+msgstr ""
+
+#: feedex_headers.py:498
+msgid "Log file"
+msgstr ""
+
+#: feedex_headers.py:499
+msgid "Feedex database"
+msgstr ""
+
+#: feedex_headers.py:500
+msgid "Browser command"
+msgstr ""
+
+#: feedex_headers.py:502
+msgid "User Agent String"
+msgstr ""
+
+#: feedex_headers.py:503
+msgid "Database timeout"
+msgstr ""
+
+#: feedex_headers.py:504
+msgid "Default Channel check interval"
+msgstr ""
+
+#: feedex_headers.py:505
+msgid "Channel error threshold"
+msgstr ""
+
+#: feedex_headers.py:506
+msgid "Max items for a single transaction"
+msgstr ""
+
+#: feedex_headers.py:507
+msgid "Ignore image processing"
+msgstr ""
+
+#: feedex_headers.py:508
+msgid "Limit for rules"
+msgstr ""
+
+#: feedex_headers.py:509
+msgid "Use keyword learning"
+msgstr ""
+
+#: feedex_headers.py:510
+msgid "Use search habits"
+msgstr ""
+
+#: feedex_headers.py:511
+msgid "Do not save queries in History"
+msgstr ""
+
+#: feedex_headers.py:512
+msgid "Learn from added Entries"
+msgstr ""
+
+#: feedex_headers.py:513
+msgid "Default Entry weight"
+msgstr ""
+
+#: feedex_headers.py:514
+msgid "Default Rule weight"
+msgstr ""
+
+#: feedex_headers.py:515
+msgid "Default Rule wieght (query)"
+msgstr ""
+
+#: feedex_headers.py:516
+msgid "Max similar items"
+msgstr ""
+
+#: feedex_headers.py:517
+msgid "Default grouping depth"
+msgstr ""
+
+#: feedex_headers.py:518 feedex_headers.py:521
+msgid "Do HTTP redirects"
+msgstr ""
+
+#: feedex_headers.py:519
+msgid "Save permanent HTTP redirects"
+msgstr ""
+
+#: feedex_headers.py:520
+msgid "Mark deleted RSS channels as unhealthy"
+msgstr ""
+
+#: feedex_headers.py:523
+msgid "Ignore MODIFIED and ETag tags"
+msgstr ""
+
+#: feedex_headers.py:525
+msgid "Push desktop notifications for new items"
+msgstr ""
+
+#: feedex_headers.py:526
+msgid "Fetch news periodically"
+msgstr ""
+
+#: feedex_headers.py:527
+msgid "Notification grouping"
+msgstr ""
+
+#: feedex_headers.py:528
+msgid "Notification depth"
+msgstr ""
+
+#: feedex_headers.py:530
+msgid "New item color"
+msgstr ""
+
+#: feedex_headers.py:531
+msgid "Deleted item color"
+msgstr ""
+
+#: feedex_headers.py:532
+msgid "Search hilight color"
+msgstr ""
+
+#: feedex_headers.py:533
+msgid "Default Color for Flags"
+msgstr ""
+
+#: feedex_headers.py:535
+msgid "GUI pane layout"
+msgstr ""
+
+#: feedex_headers.py:536
+msgid "GUI pane orientation"
+msgstr ""
+
+#: feedex_headers.py:538
+msgid "Image viewer command"
+msgstr ""
+
+#: feedex_headers.py:539
+msgid "Text File viewer command"
+msgstr ""
+
+#: feedex_headers.py:540
+msgid "Search Engine to use in GUI"
+msgstr ""
+
+#: feedex_headers.py:541
+msgid "Clear image cache after n days"
+msgstr ""
+
+#: feedex_headers.py:542
+msgid "New Search shortkut key"
+msgstr ""
+
+#: feedex_headers.py:543
+msgid "New Entry shortcut key"
+msgstr ""
+
+#: feedex_headers.py:544
+msgid "New Rule shortcut key"
+msgstr ""
+
+#: feedex_headers.py:546
+msgid "CLI normal color"
+msgstr ""
+
+#: feedex_headers.py:547
+msgid "CLI default flagged color"
+msgstr ""
+
+#: feedex_headers.py:548
+msgid "CLI read color"
+msgstr ""
+
+#: feedex_headers.py:549
+msgid "CLI bold style"
+msgstr ""
+
+#: feedex_headers.py:550
+msgid "Bold section beginning markup"
+msgstr ""
+
+#: feedex_headers.py:551
+msgid "Bold section end markup"
+msgstr ""
+
+#: feedex_rule.py:61
+msgid "Rule %a not found!"
+msgstr ""
+
+#: feedex_rule.py:79
+msgid "Search string cannot be empty!"
+msgstr ""
+
+#: feedex_rule.py:84 feedex_rule.py:87
+msgid ""
+"Invalid query type! Must be string(0), full-text (1), exact (2) or regex (3)"
+msgstr ""
+
+#: feedex_rule.py:132 feedex_rule.py:139
+msgid "Field to search not valid!"
+msgstr ""
+
+#: feedex_rule.py:146
+msgid "Not a valid regex string!"
+msgstr ""
+
+#: feedex_rule.py:149 feedex_rule.py:160
+msgid "Case insensitivity must be 0 or 1!"
+msgstr ""
+
+#: feedex_rule.py:204
+msgid "Rule %a updated successfuly!"
+msgstr ""
+
+#: feedex_rule.py:247
+msgid "Rule %a deleted"
+msgstr ""
+
+#: feedex_rule.py:249 feedex_rule.py:512
+msgid "Nothing done."
+msgstr ""
+
+#: feedex_rule.py:285
+msgid "Rule %a added successfully"
+msgstr ""
+
+#: feedex_rule.py:402
+msgid "Flag %a not found!"
+msgstr ""
+
+#: feedex_rule.py:416
+msgid "ID taken by another flag"
+msgstr ""
+
+#: feedex_rule.py:417
+msgid "Flag name cannot be empty!"
+msgstr ""
+
+#: feedex_rule.py:418
+msgid "Invalid CLI color name!"
+msgstr ""
+
+#: feedex_rule.py:457
+msgid "Error reloading flags after successfull update: %a"
+msgstr ""
+
+#: feedex_rule.py:464
+msgid "Flag %a updated successfuly!"
+msgstr ""
+
+#: feedex_rule.py:507
+msgid "Error reloading flags after successfull delete: %a"
+msgstr ""
+
+#: feedex_rule.py:510
+msgid "Flag %a deleted"
+msgstr ""
+
+#: feedex_rule.py:541
+msgid "Error reloading flags after successfull add: %a"
+msgstr ""
+
+#: feedex_rule.py:544
+msgid "Flag %a added successfully"
+msgstr ""
+
+#: feedex_utils.py:72
+msgid "Timestamp convertion: %a"
+msgstr ""
+
+#: feedex_utils.py:72
+msgid "Invalid epoch"
+msgstr ""
+
+#: feedex_utils.py:79
+#, python-brace-format
+msgid "Timestamp convertion: {e}"
+msgstr ""
+
+#: feedex_utils.py:94
+msgid "UNKNOWN"
+msgstr ""
+
+#: feedex_utils.py:129
+msgid "Empty argument (%a)"
+msgstr ""
+
+#: feedex_utils.py:140
+msgid "Invalid argument type (%a)"
+msgstr ""
+
+#: feedex_utils.py:165
+msgid "Defaulting to %a"
+msgstr ""
+
+#: feedex_utils.py:282
+msgid "%a must be integer > 0"
+msgstr ""
+
+#: feedex_utils.py:287
+msgid "%a must be integer >= 0"
+msgstr ""
+
+#: feedex_utils.py:292
+msgid "%a must be True or False"
+msgstr ""
+
+#: feedex_utils.py:297
+msgid "%a must be a valid number"
+msgstr ""
+
+#: feedex_utils.py:302
+msgid "%a must be a valid string"
+msgstr ""
+
+#: feedex_utils.py:307
+msgid "%a must be a single character ([a-zA-Z0-9])"
+msgstr ""
+
+#: feedex_utils.py:317
+msgid "Database file %a does not exist!"
+msgstr ""
+
+#: feedex_utils.py:497
+msgid "File %a not found!"
+msgstr ""
+
+#: feedex_utils.py:557
+msgid "Cache cleared successfully..."
+msgstr ""
