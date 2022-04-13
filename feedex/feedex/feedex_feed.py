@@ -653,7 +653,7 @@ class FeedContainer(FeedContainerBasic):
         self.vals['is_category'] = 0
         self.vals['url'] = self.vals['url'].strip()
         if self.vals.get('handler') is None: self.vals['handler'] = 'rss'
-        if self.vals['handler'] == 'html': self.vals['link'] = self.vals.get['url']
+        if self.vals['handler'] == 'html': self.vals['link'] = self.vals.get('url')
         self.vals['interval'] = self.config.get('default_interval', 45)
         self.vals['autoupdate'] = 1
         if kargs.get('no_fetch',False): self.vals['fetch'] = 0
