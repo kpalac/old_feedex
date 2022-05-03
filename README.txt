@@ -52,7 +52,7 @@ Features:
 
 INSTALLATION:
 
-  - Unpact ZIP to temporary location
+  - Unpack ZIP to temporary location
   - Run install.sh script in the base directory, to install all files to your system as well as dependencies
     Note: You need an active internet connection
 
