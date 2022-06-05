@@ -1,0 +1,11 @@
+<p>
+
+    <br><b><a class="ulink" href="<%link%>"><%title%></a><b> (<b><i><%feed_name%></i> </b><i><%author%></i>)<br/>
+    <br>Author: <b><i><%author></b></i></br>
+    <br>Category: <i><%category%</i>
+    <br></br>
+    <br><%desc%></br>
+    <br></br>
+    <br><%snippets%></br>
+
+</p>

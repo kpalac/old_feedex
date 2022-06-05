@@ -1,0 +1,100 @@
+# Example configuration for Feedex News Reader
+
+
+# Display language
+lang = 
+
+
+# Path to log file
+log = /home/lolko/.local/share/feedex/feedex.log
+
+# Path to news SQLite3 database
+db_path = /home/lolko/.local/share/feedex/feedex.db
+# Database timeout
+timeout = 5
+
+
+# Command for openning URLs, Text files and viewing images
+browser = xdg-open %u
+text_viewer = xdg-open %u
+image_viewer = xdg-open %u
+
+default_rule_weight = 2
+
+# Learn keywords from manually added entries?
+learn_from_added_entries = True
+# ... what should be the weight?
+default_entry_weight = 2
+
+# Learning and ranking
+use_keyword_learning = True
+rule_limit = 50000
+use_search_habits = True
+
+# Snippet length (to exclude long wildcard matches)
+max_context_length = 500
+
+# Don't save search history
+no_history = False
+
+
+# Default depth for query grouping
+default_depth = 5
+
+
+# Limit similarity search results for better performance
+default_similarity_limit = 20
+
+# How similarity query should increase entry's importance?
+default_similar_weight = 2
+
+# Fetching and WWW connections
+error_threshold = 5
+default_interval = 45
+do_redirects = True
+save_perm_redirects = False
+mark_deleted = True
+ignore_modified = True
+user_agent = UniversalFeedParser/5.0.1 +http://feedparser.org/
+
+
+
+
+# GUI options
+# Ignore image handling and download for performance
+ignore_images = False
+# Ignore streaming audio/video media for performance
+ignore_media = False
+
+gui_new_color = #0f0fdadacaca
+gui_deleted_color = #bababdbdb6b6
+gui_hilight_color = #00000000ffff
+gui_desktop_notify = True
+gui_fetch_periodically = False
+gui_notify_group = feed
+gui_notify_depth = 5
+gui_default_flag_color = #cccc00000000
+gui_key_search = s
+gui_key_new_entry = n
+gui_key_new_rule = r
+gui_layout = 0
+gui_orientation = 0
+gui_startup_page = 2
+search_engine = https://duckduckgo.com/?t=ffab&q=%Q&ia=web
+gui_clear_cache = 30
+
+# Desktop integration options 
+window_name_exclude = Firefox,firefox,chrome,Chrome,Mozilla,mozilla,Thunderbird,thunderbird
+
+# CLI display beautifiers
+# Available colors: WHITE, WHITE_BOLD, YELLOW, YELLOW_BOLD, CYAN, CYAN_BOLD, BLUE, BLUE_BOLD, RED, RED_BOLD, GREEN, GREEN_BOLD, PURPLE, PURPLE_BOLD, LIGHT_RED, LIGHT_RED_BOLD
+
+#normal_color = WHITE
+#read_color = WHITE_BOLD
+#flag_color = YELLOW_BOLD
+#bold_color = CYAN_BOLD
+
+# Bold markup (e.g. for snippets and contexts
+#bold_markup_beg = <b>
+#bold_markup_end = </b>
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <meta name="date" content="<%pubdate_str%>"/>
+        <meta name="title" content="<%title%>"/>
+        <meta name="filename" content="<%link%>"/>
+        <meta name="url" content="<%link%>"/>
+    </head>
+    
+    <body>
+        <b><a class="ulink" href="<%link%>"><%title%></a><b> (<b><i><%feed_name%></i></b> <i><%author%></i>)
+        <p>
+        <%pubdate_str%>
+        </p>
+
+        <p>
+        <i><%category%></i>
+        </p>
+
+        <p>
+        <%desc%>
+        </p>
+        <p>
+        <%snippets%>
+        </p>
+
+    </body>
+</html>
+<!!!------------------------------------------------------------
